@@ -205,7 +205,7 @@
 
                     <!-- CTA Buttons -->
                     <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-5">
-                        <a href="signup.php" target="_blank" class="group relative inline-flex items-center justify-center px-8 py-4 text-base font-bold text-white transition-all duration-300 bg-orange-600 rounded-xl hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-400 overflow-hidden shadow-[0_0_20px_rgba(234,88,12,0.45)] hover:shadow-[0_0_30px_rgba(249,115,22,0.65)] transform hover:-translate-y-1">
+                        <a href="index.php#book-free-demo" target="_blank" class="group relative inline-flex items-center justify-center px-8 py-4 text-base font-bold text-white transition-all duration-300 bg-orange-600 rounded-xl hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-400 overflow-hidden shadow-[0_0_20px_rgba(234,88,12,0.45)] hover:shadow-[0_0_30px_rgba(249,115,22,0.65)] transform hover:-translate-y-1">
                             <span class="absolute w-0 h-0 transition-all duration-500 ease-out bg-white rounded-full group-hover:w-56 group-hover:h-56 opacity-10"></span>
                             <span class="relative flex items-center">
                                 Get Started Now
@@ -584,7 +584,7 @@
                     <div class="md:w-1/3 relative z-10 text-center md:text-left">
                         <h3 class="text-2xl font-black text-gray-900 dark:text-white mb-4 font-heading tracking-tight">Service Coverage</h3>
                         <p class="text-gray-500 dark:text-slate-400 text-sm leading-relaxed mb-6">Explore our extensive network of OTP SMS and API services across Tamilnadu.</p>
-                        <a href="signup.php" class="inline-flex items-center justify-center px-6 py-3 text-sm font-bold text-white bg-gray-900 dark:bg-indigo-600 rounded-xl hover:bg-gray-800 dark:hover:bg-indigo-700 transition-all duration-300">
+                        <a href="index.php#book-free-demo" class="inline-flex items-center justify-center px-6 py-3 text-sm font-bold text-white bg-gray-900 dark:bg-indigo-600 rounded-xl hover:bg-gray-800 dark:hover:bg-indigo-700 transition-all duration-300">
                             View All Locations
                         </a>
                     </div>
@@ -674,7 +674,7 @@
                         <span class="absolute -left-4 top-1 bottom-1 w-1 bg-gradient-to-b from-amber-500 to-orange-500 rounded-full"></span>
                         Elevate customer trust by improving user experience and increasing user security with our trustworthy OTP SMS service provider.
                     </p>
-                    <a href="signup.php" class="group relative inline-flex items-center justify-center px-8 py-4 text-base font-bold text-white transition-all duration-500 bg-amber-600 rounded-2xl hover:bg-amber-700 overflow-hidden shadow-[0_10px_20px_rgba(245,158,11,0.3)] hover:-translate-y-1">
+                    <a href="index.php#book-free-demo" class="group relative inline-flex items-center justify-center px-8 py-4 text-base font-bold text-white transition-all duration-500 bg-amber-600 rounded-2xl hover:bg-amber-700 overflow-hidden shadow-[0_10px_20px_rgba(245,158,11,0.3)] hover:-translate-y-1">
                         <div class="absolute inset-0 bg-gradient-to-r from-amber-600 to-orange-600 transition-opacity duration-500 group-hover:opacity-0"></div>
                         <div class="absolute inset-0 bg-gradient-to-r from-orange-600 to-amber-500 opacity-0 transition-opacity duration-500 group-hover:opacity-100"></div>
                         <span class="relative z-10 flex items-center tracking-wide">

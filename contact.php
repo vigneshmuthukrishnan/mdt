@@ -84,6 +84,36 @@
             0% { transform: translateX(-100%); }
             100% { transform: translateX(100%); }
         }
+
+        .demo-form input,
+        .demo-form textarea,
+        .demo-form select {
+            transition: border-color 0.25s ease, box-shadow 0.25s ease, transform 0.25s ease;
+        }
+
+        .demo-form input:focus,
+        .demo-form textarea:focus,
+        .demo-form select:focus {
+            outline: none;
+            border-color: #60a5fa;
+            box-shadow: 0 0 0 4px rgba(96, 165, 250, 0.18);
+            transform: translateY(-1px);
+        }
+
+        .demo-toast {
+            position: fixed;
+            right: 1.5rem;
+            bottom: 1.5rem;
+            z-index: 100;
+            transform: translateY(5rem);
+            opacity: 0;
+            transition: transform 0.35s ease, opacity 0.35s ease;
+        }
+
+        .demo-toast.show {
+            transform: translateY(0);
+            opacity: 1;
+        }
     </style>
 </head>
 <body class="bg-gray-50 dark:bg-[#060c18] text-gray-800 dark:text-gray-300 antialiased pt-20 transition-colors duration-300">
@@ -190,65 +220,47 @@
                 <div class="premium-card p-8 md:p-14 rounded-[3rem] shadow-2xl relative overflow-hidden group" data-aos="fade-right">
                     <div class="absolute top-0 right-0 w-32 h-32 bg-blue-500/10 blur-[40px] rounded-full group-hover:bg-blue-500/20 transition-all duration-700"></div>
                     
-                    <h2 class="text-3xl md:text-4xl font-black text-gray-900 dark:text-white mb-4 font-heading tracking-tight">Send Us a Message</h2>
-                    <p class="text-gray-500 dark:text-slate-400 mb-10 font-medium leading-relaxed">Your email address will not be published. Required fields are marked *</p>
+                    <h2 class="text-3xl md:text-4xl font-black text-gray-900 dark:text-white mb-4 font-heading tracking-tight">Book a Free Demo</h2>
+                    <p class="text-gray-500 dark:text-slate-400 mb-8 font-medium leading-relaxed">Fill in your details &mdash; our team calls you within 2 hours.</p>
                     
-                    <form action="action.php" method="post" class="space-y-8 relative z-10">
-                        <input type="hidden" id="contact_page" name="contact_page" value="1">
-                        
-                        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                            <div class="space-y-2">
-                                <label class="block text-sm font-black text-gray-700 dark:text-slate-300 uppercase tracking-wider ml-1">Full Name *</label>
-                                <input type="text" placeholder="Your Name" name="username" class="w-full px-6 py-4 rounded-2xl border border-gray-200 dark:border-slate-800 bg-white/50 dark:bg-slate-900/50 backdrop-blur-sm focus:ring-4 focus:ring-blue-500/20 focus:border-blue-500 outline-none transition-all dark:text-white" required>
-                            </div>
-                            <div class="space-y-2">
-                                <label class="block text-sm font-black text-gray-700 dark:text-slate-300 uppercase tracking-wider ml-1">Company *</label>
-                                <input type="text" placeholder="Company Name" class="w-full px-6 py-4 rounded-2xl border border-gray-200 dark:border-slate-800 bg-white/50 dark:bg-slate-900/50 backdrop-blur-sm focus:ring-4 focus:ring-blue-500/20 focus:border-blue-500 outline-none transition-all dark:text-white" required>
-                            </div>
-                        </div>
-
-                        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                            <div class="space-y-2">
-                                <label class="block text-sm font-black text-gray-700 dark:text-slate-300 uppercase tracking-wider ml-1">Mobile No *</label>
-                                <input type="tel" id="phone" name="mobile" placeholder="10 Digit Number" class="w-full px-6 py-4 rounded-2xl border border-gray-200 dark:border-slate-800 bg-white/50 dark:bg-slate-900/50 backdrop-blur-sm focus:ring-4 focus:ring-blue-500/20 focus:border-blue-500 outline-none transition-all dark:text-white" maxlength="10" minlength="10" onkeyup="if (/\D/g.test(this.value)) this.value = this.value.replace(/\D/g,'')" required>
-                            </div>
-                            <div class="space-y-2">
-                                <label class="block text-sm font-black text-gray-700 dark:text-slate-300 uppercase tracking-wider ml-1">Email Address *</label>
-                                <input type="email" name="email" placeholder="email@example.com" class="w-full px-6 py-4 rounded-2xl border border-gray-200 dark:border-slate-800 bg-white/50 dark:bg-slate-900/50 backdrop-blur-sm focus:ring-4 focus:ring-blue-500/20 focus:border-blue-500 outline-none transition-all dark:text-white" required>
-                            </div>
-                        </div>
-
-                        <div class="space-y-2">
-                            <label class="block text-sm font-black text-gray-700 dark:text-slate-300 uppercase tracking-wider ml-1">Services *</label>
-                            <div class="relative">
-                                <select class="w-full px-6 py-4 rounded-2xl border border-gray-200 dark:border-slate-800 bg-white/50 dark:bg-slate-900/50 backdrop-blur-sm focus:ring-4 focus:ring-blue-500/20 focus:border-blue-500 outline-none transition-all appearance-none dark:text-white cursor-pointer" name="register_ticket" required>
-                                    <option value="" class="dark:bg-slate-900">You need..</option>
-                                    <option value="BulkSMS Service" class="dark:bg-slate-900">1. BulkSMS Service</option>
-                                    <option value="Official Business WhatsApp" class="dark:bg-slate-900">2. Official Business WhatsApp</option>
-                                    <option value="IVR Service" class="dark:bg-slate-900">3. IVR Service</option>
-                                    <option value="Voice Call Service" class="dark:bg-slate-900">4. Voice Call Service</option>
-                                    <option value="RCS - Rich Media" class="dark:bg-slate-900">5. RCS - Rich Media</option>
-                                </select>
-                                <div class="absolute right-6 top-1/2 -translate-y-1/2 pointer-events-none text-gray-400">
-                                    <i class="las la-angle-down text-xl"></i>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="flex items-start gap-4 p-4 bg-blue-50 dark:bg-blue-900/20 rounded-2xl border border-blue-100 dark:border-blue-800/50 transition-colors">
-                            <input type="checkbox" id="agree" class="mt-1 w-5 h-5 rounded-lg border-gray-300 text-blue-600 focus:ring-blue-500 cursor-pointer" required>
-                            <label for="agree" class="text-sm font-medium text-blue-800 dark:text-blue-300 leading-relaxed cursor-pointer">
-                                By submitting the above information, you agree to receive promotional communications from our brand on different channels like RCS/SMS/Voice/WhatsApp/Email.
+                    <form class="demo-form relative z-10">
+                        <div class="grid gap-5 md:grid-cols-2">
+                            <label class="text-sm font-bold text-gray-700 dark:text-slate-300">First Name *
+                                <input class="mt-2 w-full rounded-xl border border-gray-200 bg-white/70 p-3 font-normal dark:border-slate-800 dark:bg-slate-900/60 dark:text-white" type="text" placeholder="Arjun" id="fname">
                             </label>
+                            <label class="text-sm font-bold text-gray-700 dark:text-slate-300">Last Name
+                                <input class="mt-2 w-full rounded-xl border border-gray-200 bg-white/70 p-3 font-normal dark:border-slate-800 dark:bg-slate-900/60 dark:text-white" type="text" placeholder="Kumar" id="lname">
+                            </label>
+                            <label class="text-sm font-bold text-gray-700 dark:text-slate-300">Mobile Number *
+                                <input class="mt-2 w-full rounded-xl border border-gray-200 bg-white/70 p-3 font-normal dark:border-slate-800 dark:bg-slate-900/60 dark:text-white" type="tel" placeholder="+91 98765 43210" id="phone">
+                            </label>
+                            <label class="text-sm font-bold text-gray-700 dark:text-slate-300">Business Email
+                                <input class="mt-2 w-full rounded-xl border border-gray-200 bg-white/70 p-3 font-normal dark:border-slate-800 dark:bg-slate-900/60 dark:text-white" type="email" placeholder="you@company.com" id="email">
+                            </label>
+                            <label class="text-sm font-bold text-gray-700 dark:text-slate-300 md:col-span-2">Service You're Interested In *
+                                <select class="mt-2 w-full rounded-xl border border-gray-200 bg-white/70 p-3 font-normal dark:border-slate-800 dark:bg-slate-900 dark:text-white" id="service">
+                                    <option value="">&mdash; Select a Service &mdash;</option>
+                                    <option>Bulk SMS Service</option>
+                                    <option>WhatsApp Business API</option>
+                                    <option>OTP SMS / SMS API</option>
+                                    <option>Voice Call Service</option>
+                                    <option>IVR / Cloud Telephony</option>
+                                    <option>RCS &mdash; Rich Media</option>
+                                    <option>All Services</option>
+                                </select>
+                            </label>
+                            <label class="text-sm font-bold text-gray-700 dark:text-slate-300 md:col-span-2">Company / Business Name
+                                <input class="mt-2 w-full rounded-xl border border-gray-200 bg-white/70 p-3 font-normal dark:border-slate-800 dark:bg-slate-900/60 dark:text-white" type="text" placeholder="My Company Pvt Ltd" id="company">
+                            </label>
+                            <label class="text-sm font-bold text-gray-700 dark:text-slate-300 md:col-span-2">Message (Optional)
+                                <textarea class="mt-2 w-full rounded-xl border border-gray-200 bg-white/70 p-3 font-normal dark:border-slate-800 dark:bg-slate-900/60 dark:text-white" rows="3" placeholder="Tell us your use case or any questions..." id="message"></textarea>
+                            </label>
+                            <button class="rounded-xl bg-gradient-to-r from-blue-600 to-indigo-700 px-5 py-4 font-bold text-white shadow-lg shadow-blue-600/20 transition hover:-translate-y-1 md:col-span-2" type="button" onclick="submitDemoForm()">Book My Free Demo &rarr;</button>
                         </div>
-                        
-                        <button type="submit" class="group relative w-full md:w-auto px-10 py-5 bg-blue-600 text-white rounded-[1.25rem] font-black text-lg overflow-hidden transition-all hover:bg-blue-700 hover:scale-[1.02] active:scale-95 shadow-[0_10px_30px_-10px_rgba(37,99,235,0.5)]">
-                            <span class="absolute inset-0 bg-gradient-to-r from-blue-400/20 to-transparent translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-700"></span>
-                            <span class="relative flex items-center justify-center gap-3">
-                                Submit Message 
-                                <svg class="w-6 h-6 transform transition-transform group-hover:translate-x-1 group-hover:-translate-y-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"></path></svg>
-                            </span>
-                        </button>
+                        <p class="mt-4 text-center text-xs text-gray-500 dark:text-slate-400">
+                            <svg class="mr-1 inline h-4 w-4" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 10V7a5 5 0 0 1 10 0v3m-11 0h12a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2Zm6 4v3"/></svg>
+                            Your data is 128-bit encrypted and never shared with third parties.
+                        </p>
                     </form>
                 </div>
 
@@ -359,90 +371,10 @@
         </div>
     </section>
 
-    <!-- Ultimate Bento Box Section -->
-    <section class="py-24 bg-gray-50 dark:bg-[#060c18] relative overflow-hidden transition-colors duration-300">
-        <div class="absolute top-0 right-0 w-full h-full overflow-hidden pointer-events-none -z-10">
-            <div class="absolute inset-0 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:40px_40px] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)] opacity-30"></div>
-        </div>
-
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-            <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 auto-rows-auto">
-                
-                <!-- BENTO ITEM 1: Massive CTA -->
-                <div class="lg:col-span-2 bg-gradient-to-br from-blue-600 to-indigo-800 rounded-[3rem] p-10 md:p-14 relative overflow-hidden group flex flex-col justify-center min-h-[400px]" data-aos="fade-up">
-                    <div class="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGNpcmNsZSBjeD0iMSIgY3k9IjEiIHI9IjEiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC4wNSkiLz48L3N2Zz4=')] opacity-30 mix-blend-overlay"></div>
-                    <div class="absolute -right-20 -top-20 w-80 h-80 bg-blue-400/30 blur-[80px] rounded-full group-hover:bg-blue-400/40 transition-all duration-700"></div>
-                    
-                    <h2 class="text-4xl md:text-5xl lg:text-6xl font-black text-white mb-6 font-heading tracking-tight leading-[1.1] relative z-10">
-                        Step Into Success! <br /> Join the MDT Family.
-                    </h2>
-                    <p class="text-blue-50 text-lg md:text-xl max-w-lg mb-10 relative z-10 font-medium">
-                        Why Wait? Join the MDT Family Today and Elevate Your Business!
-                    </p>
-                    <div class="relative z-10">
-                        <a href="signup.php" class="inline-flex items-center justify-center px-10 py-5 text-lg font-black text-blue-700 bg-white rounded-2xl hover:bg-blue-50 transition-all duration-300 hover:scale-105 hover:shadow-[0_0_40px_rgba(255,255,255,0.3)]">
-                            Get Started
-                            <svg class="w-6 h-6 ml-2 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M13 7l5 5m0 0l-5 5m5-5H6"></path></svg>
-                        </a>
-                    </div>
-                </div>
-
-                <!-- BENTO ITEM 2: Trusted Locations -->
-                <div class="bg-white dark:bg-slate-900/80 backdrop-blur-xl border border-gray-200/80 dark:border-slate-800/80 rounded-[3rem] p-8 md:p-10 flex flex-col relative overflow-hidden" data-aos="fade-up" data-aos-delay="100">
-                    <div class="absolute top-0 right-0 w-32 h-32 bg-blue-500/10 blur-[40px] rounded-full"></div>
-                    
-                    <h3 class="text-2xl font-black text-gray-900 dark:text-white mb-8 font-heading tracking-tight relative z-10">
-                        Trusted In Tamilnadu
-                    </h3>
-                    
-                    <div class="flex-1 flex flex-col gap-4 relative z-10 overflow-y-auto pr-2 custom-scrollbar" style="max-height: 300px;">
-                        <?php
-                        $top_locations = ['Chennai', 'Trichy', 'Coimbatore', 'Salem', 'Madurai', 'Tiruppur', 'Erode'];
-                        foreach ($top_locations as $loc): ?>
-                        <div class="flex items-center gap-4 group cursor-default">
-                            <div class="w-10 h-10 shrink-0 rounded-xl bg-gray-50 dark:bg-slate-800 flex items-center justify-center border border-gray-100 dark:border-slate-700 group-hover:border-blue-500/50 group-hover:bg-blue-500/10 transition-colors">
-                                <svg class="w-4 h-4 text-gray-400 dark:text-slate-500 group-hover:text-blue-500 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
-                            </div>
-                            <span class="text-gray-600 dark:text-slate-300 font-medium group-hover:text-gray-900 dark:group-hover:text-white transition-colors">Support in <?php echo $loc; ?></span>
-                        </div>
-                        <?php endforeach; ?>
-                    </div>
-                </div>
-
-                <!-- BENTO ITEM 3: SEO Links -->
-                <div class="lg:col-span-3 bg-white dark:bg-slate-900/80 backdrop-blur-xl border border-gray-200/80 dark:border-slate-800/80 rounded-[3rem] p-10 flex flex-col md:flex-row items-center gap-10 relative overflow-hidden" data-aos="fade-up" data-aos-delay="200">
-                    <div class="absolute -left-20 -bottom-20 w-64 h-64 bg-blue-500/10 blur-[60px] rounded-full"></div>
-                    
-                    <div class="md:w-1/3 relative z-10 text-center md:text-left">
-                        <h3 class="text-2xl font-black text-gray-900 dark:text-white mb-4 font-heading tracking-tight">Service Coverage</h3>
-                        <p class="text-gray-500 dark:text-slate-400 text-sm leading-relaxed mb-6">Our dedicated support team is ready to assist you across Tamilnadu, 24/7.</p>
-                        <a href="signup.php" class="inline-flex items-center justify-center px-6 py-3 text-sm font-bold text-white bg-gray-900 dark:bg-blue-600 rounded-xl hover:bg-gray-800 dark:hover:bg-blue-700 transition-all duration-300">
-                            View All Locations
-                        </a>
-                    </div>
-                    
-                    <div class="md:w-2/3 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-y-4 gap-x-6 relative z-10 w-full">
-                        <?php
-                        $seo_locations = [
-                            'Ramanathapuram', 'Sivakasi', 'Nagercoil', 'Kanyakumari', 
-                            'Namakkal', 'Karur', 'Pudukkottai', 'Dindigul', 
-                            'Kanchipuram', 'Thiruvallur', 'Tiruvarur', 'Villupuram'
-                        ];
-                        foreach ($seo_locations as $loc): ?>
-                        <a href="#" class="text-sm font-medium text-gray-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors flex items-center group">
-                            <span class="w-1.5 h-1.5 rounded-full bg-gray-300 dark:bg-slate-700 mr-2.5 group-hover:bg-blue-500 transition-colors"></span>
-                            <?php echo $loc; ?>
-                        </a>
-                        <?php endforeach; ?>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
     <!-- Footer -->
     <?php include("footer.php"); ?>
+
+    <?php include("demo-lead-modal.php"); ?>
 
     <!-- Scripts -->
     <script src="assets/js/vendors/jquery-3.7.1.min.js"></script>
@@ -451,6 +383,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js"></script>
     <script src="assets/js/app.js"></script>
     <script>
+        function submitDemoForm() {
+            window.submitDemoLeadForm(document.getElementById('fname')?.closest('form'));
+        }
+
         $(document).ready(function() {
             AOS.init({
                 duration: 800,

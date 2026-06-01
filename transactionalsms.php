@@ -83,7 +83,7 @@
                         Reach Out To Your Customers To Share Notifications, Payment, Reminders, Alerts, Etc. With Our Transactional SMS Service. Timely Sending Information Aids To Develop Trust In Customers And Improves Conversions And Sales For Your Business.
                     </p>
                     <div class="flex flex-wrap gap-4">
-                        <a href="signup.php" class="px-8 py-4 bg-indigo-600 hover:bg-indigo-700 text-white font-bold rounded-2xl shadow-lg shadow-indigo-600/25 transition-all hover:scale-105 active:scale-95 flex items-center gap-2">
+                        <a href="index.php#book-free-demo" class="px-8 py-4 bg-indigo-600 hover:bg-indigo-700 text-white font-bold rounded-2xl shadow-lg shadow-indigo-600/25 transition-all hover:scale-105 active:scale-95 flex items-center gap-2">
                             Get Started Now
                             <i class="las la-arrow-right text-lg"></i>
                         </a>
@@ -276,7 +276,7 @@
                         We Promise Will Provide Best BulkSMS Service For Your Business Growth.
                     </p>
                     <div class="relative z-10 flex flex-wrap gap-6 items-center">
-                        <a href="signup.php" class="px-10 py-5 bg-white text-indigo-600 font-black rounded-2xl hover:bg-slate-50 transition-all hover:scale-105 active:scale-95 shadow-2xl flex items-center gap-2 text-lg">
+                        <a href="index.php#book-free-demo" class="px-10 py-5 bg-white text-indigo-600 font-black rounded-2xl hover:bg-slate-50 transition-all hover:scale-105 active:scale-95 shadow-2xl flex items-center gap-2 text-lg">
                             Create Free Account
                             <i class="las la-arrow-right"></i>
                         </a>
@@ -310,7 +310,7 @@
                                 Transactional SMS | Transactional SMS Service | Transactional SMS Service Provider | Bulk Transactional SMS | Bulk Transactional SMS Service | Bulk Transactional SMS Service Provider | Transactional BulkSMS | Transactional BulkSMS Service | Transactional BulkSMS providers | Transactional BulkSMS | Transactional BulkSMS Service | Transactional BulkSMS Service Provider | Bulk Transactional SMS Gateway| Bulk Transactional SMS Gateway Service | Bulk Transactional SMS Gateway Service Provider | Transactional SMS Gateway | Transactional SMS Service In low Price | Best Transactional BulkSMS Service | Best Transactional BulkSMS Service Provider | Free Transactional BulkSMS Service | Low Cost Transactional SMS | Low Cost Transactional SMS Package | Low Cost Transactional SMS Service Provider | Transactional SMS API | OTP SMS | BulkSMS API | API Service | SMS API | SMS API Service | SMS API Provider | BulkSMS API | Transactional SMS API | Bulk Transactional SMS API | SMS Integration for website | SMS integration billing software | SMS integration billing Mobile Application | SMS API Integration for website | SMS API integration billing software | SMS API integration billing Mobile Application
                             </p>
                         </div>
-                        <a href="signup.php" class="shrink-0 px-8 py-4 bg-slate-900 dark:bg-indigo-600 text-white font-bold rounded-2xl hover:scale-105 transition-all">
+                        <a href="index.php#book-free-demo" class="shrink-0 px-8 py-4 bg-slate-900 dark:bg-indigo-600 text-white font-bold rounded-2xl hover:scale-105 transition-all">
                             Start Now
                         </a>
                     </div>

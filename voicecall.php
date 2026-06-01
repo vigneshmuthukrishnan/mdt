@@ -156,7 +156,7 @@
 
                     <!-- CTA Buttons -->
                     <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-5">
-                        <a href="signup.php" target="_blank" class="group relative inline-flex items-center justify-center px-8 py-4 text-base font-bold text-white transition-all duration-300 bg-indigo-600 rounded-xl hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 overflow-hidden shadow-[0_0_20px_rgba(99,102,241,0.4)] hover:shadow-[0_0_30px_rgba(99,102,241,0.6)] transform hover:-translate-y-1">
+                        <a href="index.php#book-free-demo" target="_blank" class="group relative inline-flex items-center justify-center px-8 py-4 text-base font-bold text-white transition-all duration-300 bg-indigo-600 rounded-xl hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 overflow-hidden shadow-[0_0_20px_rgba(99,102,241,0.4)] hover:shadow-[0_0_30px_rgba(99,102,241,0.6)] transform hover:-translate-y-1">
                             <span class="absolute w-0 h-0 transition-all duration-500 ease-out bg-white rounded-full group-hover:w-56 group-hover:h-56 opacity-10"></span>
                             <span class="relative flex items-center">
                                 Start Now
@@ -590,7 +590,7 @@
                         <span class="absolute -left-4 top-1 bottom-1 w-1 bg-gradient-to-b from-indigo-500 to-purple-500 rounded-full"></span>
                         We are recognized as a prominent Voice Call Service Provider in Chennai. Our service helps you create an ideal communication environment for customers.
                     </p>
-                    <a href="signup.php" class="group relative inline-flex items-center justify-center px-8 py-4 text-base font-bold text-white transition-all duration-500 bg-indigo-600 rounded-2xl hover:bg-indigo-700 overflow-hidden shadow-[0_10px_20px_rgba(99,102,241,0.3)] hover:-translate-y-1">
+                    <a href="index.php#book-free-demo" class="group relative inline-flex items-center justify-center px-8 py-4 text-base font-bold text-white transition-all duration-500 bg-indigo-600 rounded-2xl hover:bg-indigo-700 overflow-hidden shadow-[0_10px_20px_rgba(99,102,241,0.3)] hover:-translate-y-1">
                         <div class="absolute inset-0 bg-gradient-to-r from-indigo-600 to-purple-600 transition-opacity duration-500 group-hover:opacity-0"></div>
                         <div class="absolute inset-0 bg-gradient-to-r from-purple-600 to-indigo-500 opacity-0 transition-opacity duration-500 group-hover:opacity-100"></div>
                         <span class="relative z-10 flex items-center tracking-wide">
@@ -645,7 +645,7 @@
             <h2 class="font-heading text-3xl font-black leading-tight text-white sm:text-4xl">Ready to Reach Every Corner of Tamil Nadu with Your Voice?</h2>
             <p class="mx-auto mt-4 max-w-3xl text-base leading-8 text-indigo-100 sm:text-lg">Join hundreds of businesses from Chennai to Kanyakumari using My Dreams Technology for affordable, reliable bulk voice call campaigns. Get 20% OFF on your first campaign &mdash; limited time offer!</p>
             <div class="mt-7 flex flex-col items-center justify-center gap-4 sm:flex-row">
-                <a href="https://www.mydreamstechnology.in/signup.php" class="rounded-xl bg-white px-7 py-4 font-bold text-indigo-700 shadow-xl transition-all duration-300 hover:-translate-y-1 hover:bg-indigo-50">Create Free Account</a>
+                <a href="index.php#book-free-demo" class="rounded-xl bg-white px-7 py-4 font-bold text-indigo-700 shadow-xl transition-all duration-300 hover:-translate-y-1 hover:bg-indigo-50">Create Free Account</a>
                 <a href="tel:+917824998877" class="inline-flex items-center rounded-xl border border-white/40 bg-white/10 px-7 py-4 font-bold text-white backdrop-blur-sm transition-all duration-300 hover:-translate-y-1 hover:bg-white/20"><i class="las la-phone mr-2 text-xl"></i>7824998877</a>
             </div>
         </div>

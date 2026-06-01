@@ -83,7 +83,7 @@
                         High-Impact Promotional SMS Campaigns! Reach Thousands Of Customers Instantly With Our Promotional SMS Service. Bulk Promotional SMS Is The Fastest, Most Cost-Effective Way To Connect With Your Audience And Maximize Your Marketing Impact.
                     </p>
                     <div class="flex flex-wrap gap-4">
-                        <a href="signup.php" class="px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white font-bold rounded-2xl shadow-lg shadow-blue-600/25 transition-all hover:scale-105 active:scale-95 flex items-center gap-2">
+                        <a href="index.php#book-free-demo" class="px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white font-bold rounded-2xl shadow-lg shadow-blue-600/25 transition-all hover:scale-105 active:scale-95 flex items-center gap-2">
                             Get Started Now
                             <i class="las la-arrow-right text-lg"></i>
                         </a>
@@ -276,7 +276,7 @@
                         We Promise Will Provide Best BulkSMS Service For Your Business Growth.
                     </p>
                     <div class="relative z-10 flex flex-wrap gap-6 items-center">
-                        <a href="signup.php" class="px-10 py-5 bg-white text-blue-600 font-black rounded-2xl hover:bg-slate-50 transition-all hover:scale-105 active:scale-95 shadow-2xl flex items-center gap-2 text-lg">
+                        <a href="index.php#book-free-demo" class="px-10 py-5 bg-white text-blue-600 font-black rounded-2xl hover:bg-slate-50 transition-all hover:scale-105 active:scale-95 shadow-2xl flex items-center gap-2 text-lg">
                             Create Free Account
                             <i class="las la-arrow-right"></i>
                         </a>
@@ -310,7 +310,7 @@
                                 BulkSMS | Promotional SMS | Promotional SMS Service | Promotional SMS Service Provider | Bulk Promotional SMS | Bulk Promotional SMS Service | Bulk Promotional SMS Service Provider | Promotional SMS Plan | Promotional messages | Message Marketing | SMS Marketing | Promotional SMS Package | Promotional SMS Gateway | Bulk Promotional Message | Message Advertisement | SMS Advertisement | Best Promotional SMS Service | Best Promotional SMS Package | Low Cost Promotional SMS | Low Cost Promotional SMS package | Bulk Promotional l Promotional SMS Gateway| Bulk Promotional SMS Gateway Service | Bulk Promotional SMS Gateway Service Provider | Promotional SMS Gateway | Promotional SMS Service In low Price | Best Promotional BulkSMS Service | Best Promotional BulkSMS Service Provider | Free Promotional SMS
                             </p>
                         </div>
-                        <a href="signup.php" class="shrink-0 px-8 py-4 bg-slate-900 dark:bg-blue-600 text-white font-bold rounded-2xl hover:scale-105 transition-all">
+                        <a href="index.php#book-free-demo" class="shrink-0 px-8 py-4 bg-slate-900 dark:bg-blue-600 text-white font-bold rounded-2xl hover:scale-105 transition-all">
                             Start Now
                         </a>
                     </div>

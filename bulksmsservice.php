@@ -943,7 +943,7 @@
                 Join thousands of businesses already using My Dreams Technology for Bulk SMS campaigns. Claim your &#8377;3,000 introductory offer today.
             </p>
             <div class="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
-                <a href="https://www.mydreamstechnology.in/signup.php" class="inline-flex items-center justify-center rounded-xl bg-white px-7 py-4 text-base font-bold text-blue-700 shadow-xl transition-all duration-300 hover:-translate-y-1 hover:bg-cyan-50 hover:shadow-2xl">
+                <a href="index.php#book-free-demo" class="inline-flex items-center justify-center rounded-xl bg-white px-7 py-4 text-base font-bold text-blue-700 shadow-xl transition-all duration-300 hover:-translate-y-1 hover:bg-cyan-50 hover:shadow-2xl">
                     <span class="mr-2" aria-hidden="true">&#x1F680;</span>
                     Start Free Demo
                 </a>

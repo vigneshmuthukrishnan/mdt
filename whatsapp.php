@@ -142,7 +142,7 @@
         <svg class="mr-1 inline h-4 w-4" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 12v8H4v-8m-2-5h20v5H2V7zm10 13V7m0 0H7.5a2.5 2.5 0 110-5C10 2 12 7 12 7zm0 0h4.5a2.5 2.5 0 100-5C14 2 12 7 12 7z"/></svg>
         <strong>Limited Offer:</strong>
         <span>Get 20% Off on Your First WhatsApp Business API Purchase &mdash;</span>
-        <a href="https://www.mydreamstechnology.in/signup.php" class="ml-1 inline-block font-bold text-white underline decoration-white/70 underline-offset-4 transition-colors hover:text-green-100">
+        <a href="index.php#book-free-demo" class="ml-1 inline-block font-bold text-white underline decoration-white/70 underline-offset-4 transition-colors hover:text-green-100">
             Claim Now &rarr;
         </a>
     </div>
@@ -197,7 +197,7 @@
 
                     <!-- CTA Buttons -->
                     <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-5">
-                        <a href="signup.php" target="_blank" class="group relative inline-flex items-center justify-center px-8 py-4 text-base font-bold text-white transition-all duration-300 bg-whatsapp rounded-xl hover:bg-whatsapp-dark focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-whatsapp overflow-hidden shadow-[0_0_20px_rgba(37,211,102,0.4)] hover:shadow-[0_0_30px_rgba(37,211,102,0.6)] transform hover:-translate-y-1">
+                        <a href="index.php#book-free-demo" target="_blank" class="group relative inline-flex items-center justify-center px-8 py-4 text-base font-bold text-white transition-all duration-300 bg-whatsapp rounded-xl hover:bg-whatsapp-dark focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-whatsapp overflow-hidden shadow-[0_0_20px_rgba(37,211,102,0.4)] hover:shadow-[0_0_30px_rgba(37,211,102,0.6)] transform hover:-translate-y-1">
                             <span class="absolute w-0 h-0 transition-all duration-500 ease-out bg-white rounded-full group-hover:w-56 group-hover:h-56 opacity-10"></span>
                             <span class="relative flex items-center">
                                 Get Started
@@ -603,7 +603,7 @@
                         <li class="flex gap-3"><span class="font-black text-green-500">&#10003;</span> Campaign analytics dashboard</li>
                         <li class="flex gap-3"><span class="font-black text-green-500">&#10003;</span> Email &amp; chat support</li>
                     </ul>
-                    <a href="https://www.mydreamstechnology.in/signup.php" class="mt-8 inline-flex justify-center rounded-xl border border-green-200 bg-green-50 px-6 py-3 font-bold text-green-700 transition-all duration-300 hover:bg-green-600 hover:text-white dark:border-green-800 dark:bg-green-900/30 dark:text-green-300 dark:hover:bg-green-600 dark:hover:text-white">Get Started</a>
+                    <a href="index.php#book-free-demo" class="mt-8 inline-flex justify-center rounded-xl border border-green-200 bg-green-50 px-6 py-3 font-bold text-green-700 transition-all duration-300 hover:bg-green-600 hover:text-white dark:border-green-800 dark:bg-green-900/30 dark:text-green-300 dark:hover:bg-green-600 dark:hover:text-white">Get Started</a>
                 </article>
 
                 <article class="relative flex h-full flex-col rounded-3xl border border-green-400 bg-gradient-to-br from-green-700 to-emerald-700 p-7 text-white shadow-[0_22px_60px_rgba(16,185,129,0.30)] transition-all duration-500 hover:-translate-y-3 hover:shadow-[0_28px_70px_rgba(16,185,129,0.40)]">
@@ -619,7 +619,7 @@
                         <li class="flex gap-3"><span class="font-black text-white">&#10003;</span> Green Tick application support</li>
                         <li class="flex gap-3"><span class="font-black text-white">&#10003;</span> Priority phone support</li>
                     </ul>
-                    <a href="https://www.mydreamstechnology.in/signup.php" class="mt-8 inline-flex justify-center rounded-xl bg-white px-6 py-3 font-bold text-green-700 shadow-lg transition-all duration-300 hover:bg-green-50 hover:shadow-xl">Get Started</a>
+                    <a href="index.php#book-free-demo" class="mt-8 inline-flex justify-center rounded-xl bg-white px-6 py-3 font-bold text-green-700 shadow-lg transition-all duration-300 hover:bg-green-50 hover:shadow-xl">Get Started</a>
                 </article>
 
                 <article class="flex h-full flex-col rounded-3xl border border-green-100 bg-white/85 p-7 shadow-[0_14px_40px_rgba(16,185,129,0.10)] backdrop-blur-xl transition-all duration-500 hover:-translate-y-2 hover:border-green-300 hover:shadow-[0_22px_52px_rgba(16,185,129,0.18)] dark:border-green-900/60 dark:bg-slate-900/80">
@@ -924,7 +924,7 @@
                         <span class="absolute -left-4 top-1 bottom-1 w-1 bg-gradient-to-b from-green-500 to-emerald-500 rounded-full"></span>
                         Official WhatsApp Business API Services in Tamilnadu. Reach your customers instantly, automate replies, and grow your business with our premium tools.
                     </p>
-                    <a href="signup.php" class="group relative inline-flex items-center justify-center px-8 py-4 text-base font-bold text-white transition-all duration-500 bg-green-600 rounded-2xl hover:bg-green-700 overflow-hidden shadow-[0_10px_20px_rgba(37,211,102,0.3)] hover:-translate-y-1">
+                    <a href="index.php#book-free-demo" class="group relative inline-flex items-center justify-center px-8 py-4 text-base font-bold text-white transition-all duration-500 bg-green-600 rounded-2xl hover:bg-green-700 overflow-hidden shadow-[0_10px_20px_rgba(37,211,102,0.3)] hover:-translate-y-1">
                         <div class="absolute inset-0 bg-gradient-to-r from-green-600 to-emerald-600 transition-opacity duration-500 group-hover:opacity-0"></div>
                         <div class="absolute inset-0 bg-gradient-to-r from-emerald-600 to-green-500 opacity-0 transition-opacity duration-500 group-hover:opacity-100"></div>
                         <span class="relative z-10 flex items-center tracking-wide">

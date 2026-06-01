@@ -106,7 +106,7 @@
             <!-- Action Buttons -->
             <div class="flex items-center gap-6">
                 <div class="hidden lg:flex items-center">
-                    <!-- <a href="signup.php" class="text-sm font-bold text-slate-600 dark:text-slate-300 hover:text-indigo-600 transition-colors mr-6">Sign In</a> -->
+                    <!-- <a href="index.php#book-free-demo" class="text-sm font-bold text-slate-600 dark:text-slate-300 hover:text-indigo-600 transition-colors mr-6">Sign In</a> -->
                     <a href="https://calendly.com/mydreamstechnology/bookademo" class="bg-indigo-600 hover:bg-indigo-700 text-white px-8 py-3 rounded-full font-black text-xs uppercase tracking-widest transition-all shadow-[0_10px_20px_-5px_rgba(79,70,229,0.3)] hover:shadow-[0_15px_25px_-5px_rgba(79,70,229,0.4)] hover:-translate-y-0.5 active:scale-95">
                         7824998877 / Get Started
                     </a>
@@ -141,7 +141,7 @@
                 </nav>
             </div>
             <div class="p-6 bg-slate-50 dark:bg-white/5">
-                <a href="signup.php" class="block w-full text-center bg-indigo-600 text-white py-4 rounded-2xl font-black transition-all shadow-lg mb-4">Create Free Account</a>
+                <a href="index.php#book-free-demo" class="block w-full text-center bg-indigo-600 text-white py-4 rounded-2xl font-black transition-all shadow-lg mb-4">Create Free Account</a>
                 <p class="text-center text-xs text-slate-500">Trusted by 1000+ Businesses</p>
             </div>
         </div>

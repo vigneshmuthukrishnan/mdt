@@ -126,7 +126,7 @@
                     </p>
                     
                     <div class="flex flex-wrap gap-6">
-                        <a href="signup.php" target="_blank" class="group relative px-10 py-5 bg-amber-500 text-gray-900 rounded-2xl font-black text-lg overflow-hidden transition-all hover:bg-amber-400 hover:scale-105 active:scale-95 shadow-[0_20px_40px_-10px_rgba(245,158,11,0.5)]">
+                        <a href="index.php#book-free-demo" target="_blank" class="group relative px-10 py-5 bg-amber-500 text-gray-900 rounded-2xl font-black text-lg overflow-hidden transition-all hover:bg-amber-400 hover:scale-105 active:scale-95 shadow-[0_20px_40px_-10px_rgba(245,158,11,0.5)]">
                             <span class="absolute inset-0 bg-gradient-to-r from-white/20 to-transparent translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-700"></span>
                             <span class="relative flex items-center">
                                 Start Free Demo
@@ -630,7 +630,7 @@
                         We Provide Everything You Need To Build A Successful Messaging Business. Our White Label Solutions Allow You To Focus On Sales While We Handle The Technology.
                     </p>
 
-                    <a href="signup.php" class="group relative inline-flex items-center justify-center px-8 py-4 text-base font-bold text-white transition-all duration-500 bg-amber-600 rounded-2xl hover:bg-amber-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-amber-600 overflow-hidden shadow-[0_10px_20px_rgba(245,158,11,0.3)] hover:shadow-[0_15px_30px_rgba(245,158,11,0.4)] hover:-translate-y-1">
+                    <a href="index.php#book-free-demo" class="group relative inline-flex items-center justify-center px-8 py-4 text-base font-bold text-white transition-all duration-500 bg-amber-600 rounded-2xl hover:bg-amber-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-amber-600 overflow-hidden shadow-[0_10px_20px_rgba(245,158,11,0.3)] hover:shadow-[0_15px_30px_rgba(245,158,11,0.4)] hover:-translate-y-1">
                         <div class="absolute inset-0 bg-gradient-to-r from-amber-600 to-orange-600 transition-opacity duration-500 group-hover:opacity-0"></div>
                         <div class="absolute inset-0 bg-gradient-to-r from-orange-600 to-amber-500 opacity-0 transition-opacity duration-500 group-hover:opacity-100"></div>
                         <span class="relative z-10 flex items-center tracking-wide">
@@ -675,88 +675,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Ultimate Bento Box Section -->
-    <section class="py-24 bg-gray-50 dark:bg-[#060c18] relative overflow-hidden transition-colors duration-300">
-        <div class="absolute top-0 right-0 w-full h-full overflow-hidden pointer-events-none -z-10">
-            <div class="absolute inset-0 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:40px_40px] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)] opacity-30"></div>
-        </div>
-
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-            <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 auto-rows-auto">
-                
-                <!-- BENTO ITEM 1: Massive CTA -->
-                <div class="lg:col-span-2 bg-gradient-to-br from-amber-600 to-orange-800 rounded-[3rem] p-10 md:p-14 relative overflow-hidden group flex flex-col justify-center min-h-[400px]" data-aos="fade-up">
-                    <div class="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGNpcmNsZSBjeD0iMSIgY3k9IjEiIHI9IjEiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC4wNSkiLz48L3N2Zz4=')] opacity-30 mix-blend-overlay"></div>
-                    <div class="absolute -right-20 -top-20 w-80 h-80 bg-amber-400/30 blur-[80px] rounded-full group-hover:bg-amber-400/40 transition-all duration-700"></div>
-                    
-                    <h2 class="text-4xl md:text-5xl lg:text-6xl font-black text-white mb-6 font-heading tracking-tight leading-[1.1] relative z-10">
-                        Step Into Success! <br /> Join the MDT Family.
-                    </h2>
-                    <p class="text-amber-50 text-lg md:text-xl max-w-lg mb-10 relative z-10 font-medium">
-                        Why Should Thinking Lets Join With MDT Family Now! We Promise Best Service for Your Business Growth.
-                    </p>
-                    <div class="relative z-10">
-                        <a href="signup.php" class="inline-flex items-center justify-center px-10 py-5 text-lg font-black text-amber-700 bg-white rounded-2xl hover:bg-amber-50 transition-all duration-300 hover:scale-105 shadow-xl">
-                            Create Free Account
-                            <svg class="w-6 h-6 ml-3 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M13 7l5 5m0 0l-5 5m5-5H6"></path></svg>
-                        </a>
-                    </div>
-                </div>
-
-                <!-- BENTO ITEM 2: Trusted Locations -->
-                <div class="bg-white dark:bg-slate-900/80 backdrop-blur-xl border border-gray-200/80 dark:border-slate-800/80 rounded-[3rem] p-8 md:p-10 flex flex-col relative overflow-hidden" data-aos="fade-up" data-aos-delay="100">
-                    <div class="absolute top-0 right-0 w-32 h-32 bg-amber-500/10 blur-[40px] rounded-full"></div>
-                    
-                    <h3 class="text-2xl font-black text-gray-900 dark:text-white mb-8 font-heading tracking-tight relative z-10">
-                        Trusted In Tamilnadu
-                    </h3>
-                    
-                    <div class="flex-1 flex flex-col gap-4 relative z-10 overflow-y-auto pr-2 custom-scrollbar" style="max-height: 300px;">
-                        <?php
-                        $top_locations = ['Chennai', 'Trichy', 'Coimbatore', 'Salem', 'Madurai', 'Tiruppur', 'Erode'];
-                        foreach ($top_locations as $loc): ?>
-                        <div class="flex items-center gap-4 group cursor-default">
-                            <div class="w-10 h-10 shrink-0 rounded-xl bg-gray-50 dark:bg-slate-800 flex items-center justify-center border border-gray-100 dark:border-slate-700 group-hover:border-amber-500/50 group-hover:bg-amber-500/10 transition-colors">
-                                <svg class="w-4 h-4 text-gray-400 dark:text-slate-500 group-hover:text-amber-500 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
-                            </div>
-                            <span class="text-gray-600 dark:text-slate-300 font-medium group-hover:text-gray-900 dark:group-hover:text-white transition-colors">Reseller Service in <?php echo $loc; ?></span>
-                        </div>
-                        <?php endforeach; ?>
-                    </div>
-                </div>
-
-                <!-- BENTO ITEM 3: SEO Links -->
-                <div class="lg:col-span-3 bg-white dark:bg-slate-900/80 backdrop-blur-xl border border-gray-200/80 dark:border-slate-800/80 rounded-[3rem] p-10 flex flex-col md:flex-row items-center gap-10 relative overflow-hidden" data-aos="fade-up" data-aos-delay="200">
-                    <div class="absolute -left-20 -bottom-20 w-64 h-64 bg-amber-500/10 blur-[60px] rounded-full"></div>
-                    
-                    <div class="md:w-1/3 relative z-10 text-center md:text-left">
-                        <h3 class="text-2xl font-black text-gray-900 dark:text-white mb-4 font-heading tracking-tight">Service Coverage</h3>
-                        <p class="text-gray-500 dark:text-slate-400 text-sm leading-relaxed mb-6">Start your white-label Bulk SMS business with our extensive network across Tamilnadu.</p>
-                        <a href="signup.php" class="inline-flex items-center justify-center px-6 py-3 text-sm font-bold text-white bg-gray-900 dark:bg-amber-600 rounded-xl hover:bg-gray-800 dark:hover:bg-amber-700 transition-all duration-300">
-                            View All Locations
-                        </a>
-                    </div>
-                    
-                    <div class="md:w-2/3 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-y-4 gap-x-6 relative z-10 w-full">
-                        <?php
-                        $seo_locations = [
-                            'Ramanathapuram', 'Sivakasi', 'Nagercoil', 'Kanyakumari', 
-                            'Namakkal', 'Karur', 'Pudukkottai', 'Dindigul', 
-                            'Kanchipuram', 'Thiruvallur', 'Tiruvarur', 'Villupuram'
-                        ];
-                        foreach ($seo_locations as $loc): ?>
-                        <a href="#" class="text-sm font-medium text-gray-600 dark:text-slate-400 hover:text-amber-600 dark:hover:text-amber-400 transition-colors flex items-center group">
-                            <span class="w-1.5 h-1.5 rounded-full bg-gray-300 dark:bg-slate-700 mr-2.5 group-hover:bg-amber-500 transition-colors"></span>
-                            <?php echo $loc; ?>
-                        </a>
-                        <?php endforeach; ?>
-                    </div>
-                </div>
-
             </div>
         </div>
     </section>

@@ -1173,7 +1173,7 @@
                             <i class="las la-check-circle text-blue-500 text-xl"></i> 99.9% Uptime
                         </li>
                     </ul>
-                    <a href="signup.php" class="w-full py-4 bg-gray-900 dark:bg-white dark:text-gray-900 text-white rounded-2xl font-black text-center transition-all hover:scale-105 active:scale-95 shadow-xl">Claim My Offer</a>
+                    <a href="index.php#book-free-demo" class="w-full py-4 bg-gray-900 dark:bg-white dark:text-gray-900 text-white rounded-2xl font-black text-center transition-all hover:scale-105 active:scale-95 shadow-xl">Claim My Offer</a>
                 </div>
 
                 <!-- Basic Plan -->
@@ -1197,7 +1197,7 @@
                             <i class="las la-check-circle text-blue-500 text-xl"></i> 99.9% Uptime
                         </li>
                     </ul>
-                    <a href="signup.php" class="w-full py-4 bg-gray-900 dark:bg-white dark:text-gray-900 text-white rounded-2xl font-black text-center transition-all hover:scale-105 active:scale-95 shadow-xl">Claim My Offer</a>
+                    <a href="index.php#book-free-demo" class="w-full py-4 bg-gray-900 dark:bg-white dark:text-gray-900 text-white rounded-2xl font-black text-center transition-all hover:scale-105 active:scale-95 shadow-xl">Claim My Offer</a>
                 </div>
 
                 <!-- Advance Plan -->
@@ -1222,7 +1222,7 @@
                             <i class="las la-check-circle text-blue-300 text-xl"></i> 99.9% Uptime
                         </li>
                     </ul>
-                    <a href="signup.php" class="w-full py-4 bg-white text-blue-700 rounded-2xl font-black text-center transition-all hover:scale-105 active:scale-95 shadow-xl">Claim My Offer</a>
+                    <a href="index.php#book-free-demo" class="w-full py-4 bg-white text-blue-700 rounded-2xl font-black text-center transition-all hover:scale-105 active:scale-95 shadow-xl">Claim My Offer</a>
                 </div>
 
                 <!-- Money Saver Plan -->
@@ -1246,7 +1246,7 @@
                             <i class="las la-check-circle text-blue-500 text-xl"></i> 99.9% Uptime
                         </li>
                     </ul>
-                    <a href="signup.php" class="w-full py-4 bg-gray-900 dark:bg-white dark:text-gray-900 text-white rounded-2xl font-black text-center transition-all hover:scale-105 active:scale-95 shadow-xl">Claim My Offer</a>
+                    <a href="index.php#book-free-demo" class="w-full py-4 bg-gray-900 dark:bg-white dark:text-gray-900 text-white rounded-2xl font-black text-center transition-all hover:scale-105 active:scale-95 shadow-xl">Claim My Offer</a>
                 </div>
             </div>
 

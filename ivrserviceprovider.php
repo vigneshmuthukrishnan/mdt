@@ -138,7 +138,7 @@
                     </p>
                     
                     <div class="flex flex-wrap gap-6">
-                        <a href="signup.php" target="_blank" class="group relative px-10 py-5 bg-cyan-600 text-white rounded-2xl font-black text-lg overflow-hidden transition-all hover:bg-cyan-700 hover:scale-105 active:scale-95 shadow-[0_20px_40px_-10px_rgba(8,145,178,0.5)]">
+                        <a href="index.php#book-free-demo" target="_blank" class="group relative px-10 py-5 bg-cyan-600 text-white rounded-2xl font-black text-lg overflow-hidden transition-all hover:bg-cyan-700 hover:scale-105 active:scale-95 shadow-[0_20px_40px_-10px_rgba(8,145,178,0.5)]">
                             <span class="absolute inset-0 bg-gradient-to-r from-cyan-400/20 to-transparent translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-700"></span>
                             <span class="relative flex items-center">
                                 Start Demo
@@ -530,7 +530,7 @@
                         We Provide Best Solution For Your Business. The Advanced Cloud Telephony Services From MDT Facilitate Seamless Communication With Customers.
                     </p>
 
-                    <a href="signup.php" class="group relative inline-flex items-center justify-center px-8 py-4 text-base font-bold text-white transition-all duration-500 bg-cyan-600 rounded-2xl hover:bg-cyan-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cyan-600 overflow-hidden shadow-[0_10px_20px_rgba(8,145,178,0.3)] hover:shadow-[0_15px_30px_rgba(8,145,178,0.4)] hover:-translate-y-1">
+                    <a href="index.php#book-free-demo" class="group relative inline-flex items-center justify-center px-8 py-4 text-base font-bold text-white transition-all duration-500 bg-cyan-600 rounded-2xl hover:bg-cyan-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cyan-600 overflow-hidden shadow-[0_10px_20px_rgba(8,145,178,0.3)] hover:shadow-[0_15px_30px_rgba(8,145,178,0.4)] hover:-translate-y-1">
                         <div class="absolute inset-0 bg-gradient-to-r from-cyan-600 to-teal-600 transition-opacity duration-500 group-hover:opacity-0"></div>
                         <div class="absolute inset-0 bg-gradient-to-r from-teal-600 to-cyan-500 opacity-0 transition-opacity duration-500 group-hover:opacity-100"></div>
                         <span class="relative z-10 flex items-center tracking-wide">
@@ -621,7 +621,7 @@
             <h2 class="font-heading text-3xl font-black sm:text-4xl lg:text-5xl">Try Our IVR Service FREE for 3 Days &mdash; No Credit Card Needed</h2>
             <p class="mx-auto mt-5 max-w-3xl text-lg text-cyan-50">Join 500+ businesses across Tamil Nadu who trust My Dreams Technology for smarter customer communication.</p>
             <div class="mt-8 flex flex-col justify-center gap-4 sm:flex-row">
-                <a href="signup.php" class="rounded-xl bg-white px-7 py-4 font-black text-cyan-700 shadow-lg transition-all hover:-translate-y-1 hover:bg-cyan-50">Create Free Account</a>
+                <a href="index.php#book-free-demo" class="rounded-xl bg-white px-7 py-4 font-black text-cyan-700 shadow-lg transition-all hover:-translate-y-1 hover:bg-cyan-50">Create Free Account</a>
                 <a href="https://calendly.com/mydreamstechnology/bookademo" target="_blank" rel="noopener noreferrer" class="rounded-xl border border-white/50 bg-white/10 px-7 py-4 font-black text-white backdrop-blur transition-all hover:-translate-y-1 hover:bg-white/20">Schedule a Demo</a>
             </div>
             <div class="mt-8 flex flex-wrap justify-center gap-3 text-sm font-bold">
