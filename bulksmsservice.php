@@ -238,42 +238,54 @@
             <div class="mt-8 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
                 <article class="group relative overflow-hidden rounded-3xl border border-blue-100/80 bg-white/80 p-7 shadow-[0_12px_35px_rgba(37,99,235,0.08)] backdrop-blur-sm transition-all duration-500 hover:-translate-y-2 hover:border-blue-300 hover:shadow-[0_20px_45px_rgba(37,99,235,0.18)] dark:border-blue-900/60 dark:bg-slate-900/70 dark:hover:border-blue-600/70">
                     <div class="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-blue-600 via-indigo-500 to-cyan-400"></div>
-                    <div class="inline-flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-blue-100 to-cyan-50 text-3xl shadow-sm ring-1 ring-blue-200/70 transition-transform duration-500 group-hover:scale-110 group-hover:-rotate-3 dark:from-blue-900/70 dark:to-indigo-900/60 dark:ring-blue-700/50" aria-hidden="true">&#x1F4B8;</div>
+                    <div class="inline-flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-blue-100 to-cyan-50 text-blue-600 shadow-sm ring-1 ring-blue-200/70 transition-transform duration-500 group-hover:scale-110 group-hover:-rotate-3 dark:from-blue-900/70 dark:to-indigo-900/60 dark:text-blue-300 dark:ring-blue-700/50" aria-hidden="true">
+                        <svg class="h-7 w-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M12 6v12m3-9.5c-.7-.58-1.72-.96-3-.96-1.93 0-3.5.99-3.5 2.21s1.57 2.21 3.5 2.21 3.5.99 3.5 2.21-1.57 2.21-3.5 2.21c-1.28 0-2.3-.38-3-.96M12 3a9 9 0 110 18 9 9 0 010-18z"/></svg>
+                    </div>
                     <h3 class="mt-6 text-lg font-bold leading-snug text-slate-950 dark:text-white">High Marketing Costs, Low ROI</h3>
                     <p class="mt-3 leading-7 text-slate-600 dark:text-slate-300">Social media ads and print campaigns are expensive. Bulk SMS costs a fraction and delivers 5&times; better open rates than email.</p>
                 </article>
 
                 <article class="group relative overflow-hidden rounded-3xl border border-blue-100/80 bg-white/80 p-7 shadow-[0_12px_35px_rgba(37,99,235,0.08)] backdrop-blur-sm transition-all duration-500 hover:-translate-y-2 hover:border-blue-300 hover:shadow-[0_20px_45px_rgba(37,99,235,0.18)] dark:border-blue-900/60 dark:bg-slate-900/70 dark:hover:border-blue-600/70">
                     <div class="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-blue-600 via-indigo-500 to-cyan-400"></div>
-                    <div class="inline-flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-blue-100 to-cyan-50 text-3xl shadow-sm ring-1 ring-blue-200/70 transition-transform duration-500 group-hover:scale-110 group-hover:-rotate-3 dark:from-blue-900/70 dark:to-indigo-900/60 dark:ring-blue-700/50" aria-hidden="true">&#x23F3;</div>
+                    <div class="inline-flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-blue-100 to-cyan-50 text-blue-600 shadow-sm ring-1 ring-blue-200/70 transition-transform duration-500 group-hover:scale-110 group-hover:-rotate-3 dark:from-blue-900/70 dark:to-indigo-900/60 dark:text-blue-300 dark:ring-blue-700/50" aria-hidden="true">
+                        <svg class="h-7 w-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M12 8v4l2.75 2.75M6.5 3.75h11M6.5 20.25h11M8 3.75c0 2.17 1.79 3.51 4 4.75 2.21-1.24 4-2.58 4-4.75M8 20.25c0-2.17 1.79-3.51 4-4.75 2.21 1.24 4 2.58 4 4.75"/></svg>
+                    </div>
                     <h3 class="mt-6 text-lg font-bold leading-snug text-slate-950 dark:text-white">Slow Campaign Delivery</h3>
                     <p class="mt-3 leading-7 text-slate-600 dark:text-slate-300">Email takes hours. WhatsApp gets ignored. SMS reaches thousands of customers in Tamil Nadu within seconds of sending.</p>
                 </article>
 
                 <article class="group relative overflow-hidden rounded-3xl border border-blue-100/80 bg-white/80 p-7 shadow-[0_12px_35px_rgba(37,99,235,0.08)] backdrop-blur-sm transition-all duration-500 hover:-translate-y-2 hover:border-blue-300 hover:shadow-[0_20px_45px_rgba(37,99,235,0.18)] dark:border-blue-900/60 dark:bg-slate-900/70 dark:hover:border-blue-600/70">
                     <div class="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-blue-600 via-indigo-500 to-cyan-400"></div>
-                    <div class="inline-flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-blue-100 to-cyan-50 text-3xl shadow-sm ring-1 ring-blue-200/70 transition-transform duration-500 group-hover:scale-110 group-hover:-rotate-3 dark:from-blue-900/70 dark:to-indigo-900/60 dark:ring-blue-700/50" aria-hidden="true">&#x1F6AB;</div>
+                    <div class="inline-flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-blue-100 to-cyan-50 text-blue-600 shadow-sm ring-1 ring-blue-200/70 transition-transform duration-500 group-hover:scale-110 group-hover:-rotate-3 dark:from-blue-900/70 dark:to-indigo-900/60 dark:text-blue-300 dark:ring-blue-700/50" aria-hidden="true">
+                        <svg class="h-7 w-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M4.93 4.93l14.14 14.14M8.23 3.8A9 9 0 0120.2 15.77M15.77 20.2A9 9 0 013.8 8.23"/></svg>
+                    </div>
                     <h3 class="mt-6 text-lg font-bold leading-snug text-slate-950 dark:text-white">Can't Reach DND Numbers</h3>
                     <p class="mt-3 leading-7 text-slate-600 dark:text-slate-300">Most providers block DND contacts. Our Transactional SMS routes reach DND-registered customers too &mdash; legally and reliably.</p>
                 </article>
 
                 <article class="group relative overflow-hidden rounded-3xl border border-blue-100/80 bg-white/80 p-7 shadow-[0_12px_35px_rgba(37,99,235,0.08)] backdrop-blur-sm transition-all duration-500 hover:-translate-y-2 hover:border-blue-300 hover:shadow-[0_20px_45px_rgba(37,99,235,0.18)] dark:border-blue-900/60 dark:bg-slate-900/70 dark:hover:border-blue-600/70">
                     <div class="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-blue-600 via-indigo-500 to-cyan-400"></div>
-                    <div class="inline-flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-blue-100 to-cyan-50 text-3xl shadow-sm ring-1 ring-blue-200/70 transition-transform duration-500 group-hover:scale-110 group-hover:-rotate-3 dark:from-blue-900/70 dark:to-indigo-900/60 dark:ring-blue-700/50" aria-hidden="true">&#x1F4C9;</div>
+                    <div class="inline-flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-blue-100 to-cyan-50 text-blue-600 shadow-sm ring-1 ring-blue-200/70 transition-transform duration-500 group-hover:scale-110 group-hover:-rotate-3 dark:from-blue-900/70 dark:to-indigo-900/60 dark:text-blue-300 dark:ring-blue-700/50" aria-hidden="true">
+                        <svg class="h-7 w-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M4 5v14h16M7 9l4 4 3-3 5 5M15 15h4v-4"/></svg>
+                    </div>
                     <h3 class="mt-6 text-lg font-bold leading-snug text-slate-950 dark:text-white">No Delivery Visibility</h3>
                     <p class="mt-3 leading-7 text-slate-600 dark:text-slate-300">You send messages but never know what happened. Our live reports show real-time delivery status for every single SMS.</p>
                 </article>
 
                 <article class="group relative overflow-hidden rounded-3xl border border-blue-100/80 bg-white/80 p-7 shadow-[0_12px_35px_rgba(37,99,235,0.08)] backdrop-blur-sm transition-all duration-500 hover:-translate-y-2 hover:border-blue-300 hover:shadow-[0_20px_45px_rgba(37,99,235,0.18)] dark:border-blue-900/60 dark:bg-slate-900/70 dark:hover:border-blue-600/70">
                     <div class="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-blue-600 via-indigo-500 to-cyan-400"></div>
-                    <div class="inline-flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-blue-100 to-cyan-50 text-3xl shadow-sm ring-1 ring-blue-200/70 transition-transform duration-500 group-hover:scale-110 group-hover:-rotate-3 dark:from-blue-900/70 dark:to-indigo-900/60 dark:ring-blue-700/50" aria-hidden="true">&#x1F527;</div>
+                    <div class="inline-flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-blue-100 to-cyan-50 text-blue-600 shadow-sm ring-1 ring-blue-200/70 transition-transform duration-500 group-hover:scale-110 group-hover:-rotate-3 dark:from-blue-900/70 dark:to-indigo-900/60 dark:text-blue-300 dark:ring-blue-700/50" aria-hidden="true">
+                        <svg class="h-7 w-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M14.7 6.3a4 4 0 01-5.35 5.35L4 17v3h3l5.35-5.35A4 4 0 0017.7 9.3l-2.4 2.4-3-3 2.4-2.4z"/></svg>
+                    </div>
                     <h3 class="mt-6 text-lg font-bold leading-snug text-slate-950 dark:text-white">Complex API Integration</h3>
                     <p class="mt-3 leading-7 text-slate-600 dark:text-slate-300">Developer-heavy setups kill your speed to market. Our SMS API is beginner-friendly and integrates in under 30 minutes.</p>
                 </article>
 
                 <article class="group relative overflow-hidden rounded-3xl border border-blue-100/80 bg-white/80 p-7 shadow-[0_12px_35px_rgba(37,99,235,0.08)] backdrop-blur-sm transition-all duration-500 hover:-translate-y-2 hover:border-blue-300 hover:shadow-[0_20px_45px_rgba(37,99,235,0.18)] dark:border-blue-900/60 dark:bg-slate-900/70 dark:hover:border-blue-600/70">
                     <div class="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-blue-600 via-indigo-500 to-cyan-400"></div>
-                    <div class="inline-flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-blue-100 to-cyan-50 text-3xl shadow-sm ring-1 ring-blue-200/70 transition-transform duration-500 group-hover:scale-110 group-hover:-rotate-3 dark:from-blue-900/70 dark:to-indigo-900/60 dark:ring-blue-700/50" aria-hidden="true">&#x23F0;</div>
+                    <div class="inline-flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-blue-100 to-cyan-50 text-blue-600 shadow-sm ring-1 ring-blue-200/70 transition-transform duration-500 group-hover:scale-110 group-hover:-rotate-3 dark:from-blue-900/70 dark:to-indigo-900/60 dark:text-blue-300 dark:ring-blue-700/50" aria-hidden="true">
+                        <svg class="h-7 w-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M12 7v5l3 2M7 3L4 6m13-3l3 3M12 21a8 8 0 100-16 8 8 0 000 16z"/></svg>
+                    </div>
                     <h3 class="mt-6 text-lg font-bold leading-snug text-slate-950 dark:text-white">Credits That Expire Fast</h3>
                     <p class="mt-3 leading-7 text-slate-600 dark:text-slate-300">Other providers expire your credits in 30&ndash;90 days. Every My Dreams Technology plan comes with lifetime validity &mdash; no pressure.</p>
                 </article>
