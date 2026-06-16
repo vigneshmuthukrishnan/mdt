@@ -505,7 +505,7 @@
     </section>
 
     <!-- Why Best Providers Section -->
-    <section class="py-14 lg:py-16 bg-gradient-to-br from-cyan-50/50 to-teal-50/50 dark:from-[#060c18] dark:to-[#0a1128] transition-colors duration-300 relative overflow-hidden" id="best-providers">
+    <!-- <section class="py-14 lg:py-16 bg-gradient-to-br from-cyan-50/50 to-teal-50/50 dark:from-[#060c18] dark:to-[#0a1128] transition-colors duration-300 relative overflow-hidden" id="best-providers">
         <div class="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none -z-10">
             <div class="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-cyan-400/20 dark:bg-cyan-600/10 rounded-full blur-[120px] animate-[pulse_8s_ease-in-out_infinite]"></div>
             <div class="absolute bottom-[-10%] right-[-5%] w-[50%] h-[50%] bg-teal-400/20 dark:bg-teal-600/10 rounded-full blur-[120px] animate-[pulse_10s_ease-in-out_infinite_alternate]"></div>
@@ -514,7 +514,6 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div class="flex flex-col lg:flex-row items-center gap-16">
                 
-                <!-- Left Side: Content -->
                 <div class="lg:w-5/12" data-aos="fade-right" data-aos-duration="1000">
                     <div class="inline-flex items-center space-x-2 bg-cyan-50 dark:bg-cyan-900/30 px-4 py-2 rounded-full mb-6 border border-cyan-100 dark:border-cyan-800/50 shadow-sm">
                         <span class="w-2 h-2 rounded-full bg-cyan-600 animate-pulse"></span>
@@ -540,7 +539,6 @@
                     </a>
                 </div>
 
-                <!-- Right Side: 2x2 Staggered Grid -->
                 <div class="lg:w-7/12 w-full">
                     <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 relative">
                         <div class="hidden sm:block absolute top-1/2 left-0 right-0 h-px bg-gradient-to-r from-transparent via-cyan-200 dark:via-cyan-800/30 to-transparent -z-10"></div>
@@ -577,7 +575,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- Our Solutions -->
     <section class="bg-gray-50 py-14 lg:py-16 dark:bg-[#0a0f1c]">

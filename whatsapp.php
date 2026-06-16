@@ -341,7 +341,7 @@
     </section>
 
     <!-- Feature Block 1: Broadcast (Image Left, Content Right) -->
-    <section class="py-16 bg-white dark:bg-[#060c18] transition-colors duration-300 relative overflow-hidden">
+    <!-- <section class="py-16 bg-white dark:bg-[#060c18] transition-colors duration-300 relative overflow-hidden">
         <div class="absolute top-0 right-0 w-full h-full overflow-hidden pointer-events-none">
             <div class="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg width=\'60\' height=\'60\' viewBox=\'0 0 60 60\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cg fill=\'none\' fill-rule=\'evenodd\'%3E%3Cpath d=\'M30 60L0 45V15L30 0l30 15v30L30 60zM15 45l15 15 15-15V15L30 0 15 15v30z\' fill=\'%2325D366\' fill-opacity=\'0.03\'/%3E%3C/g%3E%3C/svg%3E')] dark:opacity-20 opacity-50"></div>
             <div class="absolute -top-32 -left-32 w-96 h-96 bg-green-500/20 rounded-full blur-[120px] animate-[pulse_8s_ease-in-out_infinite]"></div>
@@ -386,7 +386,6 @@
                 </div>
             </div>
 
-            <!-- Feature Block 2: API (Content Left, Image Right) -->
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-12 items-center mb-12">
                 <div class="order-2 lg:order-1" data-aos="fade-right">
                     <div class="inline-flex items-center space-x-2 bg-blue-50 dark:bg-blue-900/30 px-4 py-2 rounded-full mb-6 border border-blue-100 dark:border-blue-800/50 shadow-sm transform transition-transform hover:-translate-y-1">
@@ -420,7 +419,6 @@
                 </div>
             </div>
 
-            <!-- Feature Block 3: Chatbots (Image Left, Content Right) -->
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-12 items-center">
                 <div data-aos="fade-right" class="relative group">
                     <div class="absolute inset-0 bg-gradient-to-r from-emerald-500/20 to-green-400/20 blur-[60px] rounded-[3rem] transform group-hover:scale-105 transition-transform duration-700 -z-10"></div>
@@ -449,7 +447,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- Our Solution Section -->
     <section class="relative overflow-hidden bg-white py-12 dark:bg-[#060c18]" id="features">
@@ -572,77 +570,6 @@
         </div>
     </section>
 
-    <!-- Transparent Pricing Section -->
-    <section class="relative overflow-hidden bg-gradient-to-br from-green-50 via-white to-emerald-50 py-12 dark:from-[#071811] dark:via-[#060c18] dark:to-[#071811]" id="pricing">
-        <div class="absolute -left-24 bottom-0 h-80 w-80 rounded-full bg-green-300/25 blur-[110px] dark:bg-green-600/10"></div>
-        <div class="absolute -right-24 top-0 h-80 w-80 rounded-full bg-emerald-300/25 blur-[120px] dark:bg-emerald-500/10"></div>
-
-        <div class="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-            <div class="mx-auto max-w-4xl text-center">
-                <div class="inline-flex items-center space-x-2 bg-green-50 dark:bg-green-900/30 px-4 py-2 rounded-full mb-6 border border-green-100 dark:border-green-800/50 shadow-sm transform transition-transform hover:-translate-y-1">
-                    <span class="w-2 h-2 rounded-full bg-green-600 dark:bg-green-400 animate-ping"></span>
-                    <span class="text-sm font-bold text-green-700 dark:text-green-300 tracking-wide uppercase">Transparent Pricing</span>
-                </div>
-                <h2 class="mt-5 font-heading text-3xl font-black leading-tight text-gray-900 sm:text-4xl lg:text-5xl dark:text-white">
-                    Plans that scale with <span class="text-gradient">your business</span>
-                </h2>
-                <p class="mt-5 text-base leading-8 text-gray-600 sm:text-lg dark:text-slate-300">
-                    No hidden fees. No surprise bills. Start small and grow. All plans include free onboarding support.
-                </p>
-            </div>
-
-            <div class="mt-8 grid grid-cols-1 gap-6 lg:grid-cols-3 lg:items-stretch">
-                <article class="flex h-full flex-col rounded-3xl border border-green-100 bg-white/85 p-7 shadow-[0_14px_40px_rgba(16,185,129,0.10)] backdrop-blur-xl transition-all duration-500 hover:-translate-y-2 hover:border-green-300 hover:shadow-[0_22px_52px_rgba(16,185,129,0.18)] dark:border-green-900/60 dark:bg-slate-900/80">
-                    <p class="text-sm font-black uppercase tracking-[0.18em] text-green-600 dark:text-green-400">Starter</p>
-                    <p class="mt-4 font-heading text-4xl font-black text-gray-900 dark:text-white">&#8377;2,999<span class="ml-1 text-base font-semibold text-gray-500 dark:text-slate-400">/mo</span></p>
-                    <p class="mt-4 leading-7 text-gray-600 dark:text-slate-300">Perfect for small businesses &amp; startups getting started with WhatsApp marketing.</p>
-                    <ul class="mt-6 space-y-3 text-sm text-gray-700 dark:text-slate-300">
-                        <li class="flex gap-3"><span class="font-black text-green-500">&#10003;</span> Up to 5,000 messages/month</li>
-                        <li class="flex gap-3"><span class="font-black text-green-500">&#10003;</span> 2 WhatsApp number accounts</li>
-                        <li class="flex gap-3"><span class="font-black text-green-500">&#10003;</span> Basic chatbot flows</li>
-                        <li class="flex gap-3"><span class="font-black text-green-500">&#10003;</span> Campaign analytics dashboard</li>
-                        <li class="flex gap-3"><span class="font-black text-green-500">&#10003;</span> Email &amp; chat support</li>
-                    </ul>
-                    <a href="index.php#book-free-demo" class="mt-8 inline-flex justify-center rounded-xl border border-green-200 bg-green-50 px-6 py-3 font-bold text-green-700 transition-all duration-300 hover:bg-green-600 hover:text-white dark:border-green-800 dark:bg-green-900/30 dark:text-green-300 dark:hover:bg-green-600 dark:hover:text-white">Get Started</a>
-                </article>
-
-                <article class="relative flex h-full flex-col rounded-3xl border border-green-400 bg-gradient-to-br from-green-700 to-emerald-700 p-7 text-white shadow-[0_22px_60px_rgba(16,185,129,0.30)] transition-all duration-500 hover:-translate-y-3 hover:shadow-[0_28px_70px_rgba(16,185,129,0.40)]">
-                    <span class="absolute right-5 top-5 rounded-full bg-white/20 px-3 py-1 text-xs font-black uppercase tracking-wider text-white ring-1 ring-white/30 backdrop-blur-sm">Most Popular</span>
-                    <p class="text-sm font-black uppercase tracking-[0.18em] text-green-100">Growth</p>
-                    <p class="mt-4 font-heading text-4xl font-black">&#8377;5,999<span class="ml-1 text-base font-semibold text-green-100">/mo</span></p>
-                    <p class="mt-4 leading-7 text-green-50">For growing businesses that need automation, CRM integration, and higher volume.</p>
-                    <ul class="mt-6 space-y-3 text-sm text-green-50">
-                        <li class="flex gap-3"><span class="font-black text-white">&#10003;</span> Up to 25,000 messages/month</li>
-                        <li class="flex gap-3"><span class="font-black text-white">&#10003;</span> 5 WhatsApp number accounts</li>
-                        <li class="flex gap-3"><span class="font-black text-white">&#10003;</span> Advanced chatbot + bot flows</li>
-                        <li class="flex gap-3"><span class="font-black text-white">&#10003;</span> CRM &amp; Shopify integration</li>
-                        <li class="flex gap-3"><span class="font-black text-white">&#10003;</span> Green Tick application support</li>
-                        <li class="flex gap-3"><span class="font-black text-white">&#10003;</span> Priority phone support</li>
-                    </ul>
-                    <a href="index.php#book-free-demo" class="mt-8 inline-flex justify-center rounded-xl bg-white px-6 py-3 font-bold text-green-700 shadow-lg transition-all duration-300 hover:bg-green-50 hover:shadow-xl">Get Started</a>
-                </article>
-
-                <article class="flex h-full flex-col rounded-3xl border border-green-100 bg-white/85 p-7 shadow-[0_14px_40px_rgba(16,185,129,0.10)] backdrop-blur-xl transition-all duration-500 hover:-translate-y-2 hover:border-green-300 hover:shadow-[0_22px_52px_rgba(16,185,129,0.18)] dark:border-green-900/60 dark:bg-slate-900/80">
-                    <p class="text-sm font-black uppercase tracking-[0.18em] text-green-600 dark:text-green-400">Enterprise</p>
-                    <p class="mt-4 font-heading text-4xl font-black text-gray-900 dark:text-white">Custom<span class="ml-1 text-base font-semibold text-gray-500 dark:text-slate-400"> pricing</span></p>
-                    <p class="mt-4 leading-7 text-gray-600 dark:text-slate-300">For large enterprises, agencies, and resellers needing unlimited scale and white-labelling.</p>
-                    <ul class="mt-6 space-y-3 text-sm text-gray-700 dark:text-slate-300">
-                        <li class="flex gap-3"><span class="font-black text-green-500">&#10003;</span> Unlimited messages</li>
-                        <li class="flex gap-3"><span class="font-black text-green-500">&#10003;</span> Unlimited accounts</li>
-                        <li class="flex gap-3"><span class="font-black text-green-500">&#10003;</span> Custom API development</li>
-                        <li class="flex gap-3"><span class="font-black text-green-500">&#10003;</span> Dedicated account manager</li>
-                        <li class="flex gap-3"><span class="font-black text-green-500">&#10003;</span> White-label reseller option</li>
-                        <li class="flex gap-3"><span class="font-black text-green-500">&#10003;</span> SLA-backed 99.9% uptime</li>
-                    </ul>
-                    <a href="https://www.mydreamstechnology.in/contact.php" class="mt-8 inline-flex justify-center rounded-xl border border-green-200 bg-green-50 px-6 py-3 font-bold text-green-700 transition-all duration-300 hover:bg-green-600 hover:text-white dark:border-green-800 dark:bg-green-900/30 dark:text-green-300 dark:hover:bg-green-600 dark:hover:text-white">Contact Sales</a>
-                </article>
-            </div>
-
-            <p class="mt-6 text-center text-xs leading-6 text-gray-500 dark:text-slate-400">
-                * All prices exclusive of GST. WhatsApp conversation charges billed separately per Meta's rates. 20% off applies to first month.
-            </p>
-        </div>
-    </section>
 
     <!-- Why Switch Section -->
     <section class="relative overflow-hidden bg-[#06170f] py-12" id="comparison">
@@ -740,6 +667,78 @@
                     </table>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <!-- Transparent Pricing Section -->
+    <section class="relative overflow-hidden bg-gradient-to-br from-green-50 via-white to-emerald-50 py-12 dark:from-[#071811] dark:via-[#060c18] dark:to-[#071811]" id="pricing">
+        <div class="absolute -left-24 bottom-0 h-80 w-80 rounded-full bg-green-300/25 blur-[110px] dark:bg-green-600/10"></div>
+        <div class="absolute -right-24 top-0 h-80 w-80 rounded-full bg-emerald-300/25 blur-[120px] dark:bg-emerald-500/10"></div>
+
+        <div class="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div class="mx-auto max-w-4xl text-center">
+                <div class="inline-flex items-center space-x-2 bg-green-50 dark:bg-green-900/30 px-4 py-2 rounded-full mb-6 border border-green-100 dark:border-green-800/50 shadow-sm transform transition-transform hover:-translate-y-1">
+                    <span class="w-2 h-2 rounded-full bg-green-600 dark:bg-green-400 animate-ping"></span>
+                    <span class="text-sm font-bold text-green-700 dark:text-green-300 tracking-wide uppercase">Transparent Pricing</span>
+                </div>
+                <h2 class="mt-5 font-heading text-3xl font-black leading-tight text-gray-900 sm:text-4xl lg:text-5xl dark:text-white">
+                    Plans that scale with <span class="text-gradient">your business</span>
+                </h2>
+                <p class="mt-5 text-base leading-8 text-gray-600 sm:text-lg dark:text-slate-300">
+                    No hidden fees. No surprise bills. Start small and grow. All plans include free onboarding support.
+                </p>
+            </div>
+
+            <div class="mt-8 grid grid-cols-1 gap-6 lg:grid-cols-3 lg:items-stretch">
+                <article class="flex h-full flex-col rounded-3xl border border-green-100 bg-white/85 p-7 shadow-[0_14px_40px_rgba(16,185,129,0.10)] backdrop-blur-xl transition-all duration-500 hover:-translate-y-2 hover:border-green-300 hover:shadow-[0_22px_52px_rgba(16,185,129,0.18)] dark:border-green-900/60 dark:bg-slate-900/80">
+                    <p class="text-sm font-black uppercase tracking-[0.18em] text-green-600 dark:text-green-400">Starter</p>
+                    <p class="mt-4 font-heading text-4xl font-black text-gray-900 dark:text-white">&#8377;2,999<span class="ml-1 text-base font-semibold text-gray-500 dark:text-slate-400">/mo</span></p>
+                    <p class="mt-4 leading-7 text-gray-600 dark:text-slate-300">Perfect for small businesses &amp; startups getting started with WhatsApp marketing.</p>
+                    <ul class="mt-6 space-y-3 text-sm text-gray-700 dark:text-slate-300">
+                        <li class="flex gap-3"><span class="font-black text-green-500">&#10003;</span> Up to 5,000 messages/month</li>
+                        <li class="flex gap-3"><span class="font-black text-green-500">&#10003;</span> 2 WhatsApp number accounts</li>
+                        <li class="flex gap-3"><span class="font-black text-green-500">&#10003;</span> Basic chatbot flows</li>
+                        <li class="flex gap-3"><span class="font-black text-green-500">&#10003;</span> Campaign analytics dashboard</li>
+                        <li class="flex gap-3"><span class="font-black text-green-500">&#10003;</span> Email &amp; chat support</li>
+                    </ul>
+                    <a href="index.php#book-free-demo" class="mt-8 inline-flex justify-center rounded-xl border border-green-200 bg-green-50 px-6 py-3 font-bold text-green-700 transition-all duration-300 hover:bg-green-600 hover:text-white dark:border-green-800 dark:bg-green-900/30 dark:text-green-300 dark:hover:bg-green-600 dark:hover:text-white">Get Started</a>
+                </article>
+
+                <article class="relative flex h-full flex-col rounded-3xl border border-green-400 bg-gradient-to-br from-green-700 to-emerald-700 p-7 text-white shadow-[0_22px_60px_rgba(16,185,129,0.30)] transition-all duration-500 hover:-translate-y-3 hover:shadow-[0_28px_70px_rgba(16,185,129,0.40)]">
+                    <span class="absolute right-5 top-5 rounded-full bg-white/20 px-3 py-1 text-xs font-black uppercase tracking-wider text-white ring-1 ring-white/30 backdrop-blur-sm">Most Popular</span>
+                    <p class="text-sm font-black uppercase tracking-[0.18em] text-green-100">Growth</p>
+                    <p class="mt-4 font-heading text-4xl font-black">&#8377;5,999<span class="ml-1 text-base font-semibold text-green-100">/mo</span></p>
+                    <p class="mt-4 leading-7 text-green-50">For growing businesses that need automation, CRM integration, and higher volume.</p>
+                    <ul class="mt-6 space-y-3 text-sm text-green-50">
+                        <li class="flex gap-3"><span class="font-black text-white">&#10003;</span> Up to 25,000 messages/month</li>
+                        <li class="flex gap-3"><span class="font-black text-white">&#10003;</span> 5 WhatsApp number accounts</li>
+                        <li class="flex gap-3"><span class="font-black text-white">&#10003;</span> Advanced chatbot + bot flows</li>
+                        <li class="flex gap-3"><span class="font-black text-white">&#10003;</span> CRM &amp; Shopify integration</li>
+                        <li class="flex gap-3"><span class="font-black text-white">&#10003;</span> Green Tick application support</li>
+                        <li class="flex gap-3"><span class="font-black text-white">&#10003;</span> Priority phone support</li>
+                    </ul>
+                    <a href="index.php#book-free-demo" class="mt-8 inline-flex justify-center rounded-xl bg-white px-6 py-3 font-bold text-green-700 shadow-lg transition-all duration-300 hover:bg-green-50 hover:shadow-xl">Get Started</a>
+                </article>
+
+                <article class="flex h-full flex-col rounded-3xl border border-green-100 bg-white/85 p-7 shadow-[0_14px_40px_rgba(16,185,129,0.10)] backdrop-blur-xl transition-all duration-500 hover:-translate-y-2 hover:border-green-300 hover:shadow-[0_22px_52px_rgba(16,185,129,0.18)] dark:border-green-900/60 dark:bg-slate-900/80">
+                    <p class="text-sm font-black uppercase tracking-[0.18em] text-green-600 dark:text-green-400">Enterprise</p>
+                    <p class="mt-4 font-heading text-4xl font-black text-gray-900 dark:text-white">Custom<span class="ml-1 text-base font-semibold text-gray-500 dark:text-slate-400"> pricing</span></p>
+                    <p class="mt-4 leading-7 text-gray-600 dark:text-slate-300">For large enterprises, agencies, and resellers needing unlimited scale and white-labelling.</p>
+                    <ul class="mt-6 space-y-3 text-sm text-gray-700 dark:text-slate-300">
+                        <li class="flex gap-3"><span class="font-black text-green-500">&#10003;</span> Unlimited messages</li>
+                        <li class="flex gap-3"><span class="font-black text-green-500">&#10003;</span> Unlimited accounts</li>
+                        <li class="flex gap-3"><span class="font-black text-green-500">&#10003;</span> Custom API development</li>
+                        <li class="flex gap-3"><span class="font-black text-green-500">&#10003;</span> Dedicated account manager</li>
+                        <li class="flex gap-3"><span class="font-black text-green-500">&#10003;</span> White-label reseller option</li>
+                        <li class="flex gap-3"><span class="font-black text-green-500">&#10003;</span> SLA-backed 99.9% uptime</li>
+                    </ul>
+                    <a href="https://www.mydreamstechnology.in/contact.php" class="mt-8 inline-flex justify-center rounded-xl border border-green-200 bg-green-50 px-6 py-3 font-bold text-green-700 transition-all duration-300 hover:bg-green-600 hover:text-white dark:border-green-800 dark:bg-green-900/30 dark:text-green-300 dark:hover:bg-green-600 dark:hover:text-white">Contact Sales</a>
+                </article>
+            </div>
+
+            <p class="mt-6 text-center text-xs leading-6 text-gray-500 dark:text-slate-400">
+                * All prices exclusive of GST. WhatsApp conversation charges billed separately per Meta's rates. 20% off applies to first month.
+            </p>
         </div>
     </section>
 
@@ -999,6 +998,36 @@
                     <div class="mt-6 border-t border-white/15 pt-5"><p class="font-black text-white">Selvam M.</p><p class="mt-1 text-sm text-green-200">Director, Online Coaching Institute &mdash; Madurai</p></div>
                 </article>
             </div>
+        </div>
+    </section>
+
+    <!-- Growth CTA Banner -->
+    <section class="relative overflow-hidden bg-gradient-to-r from-[#13775c] via-[#169b5f] to-[#22c963] px-4 py-20 text-center sm:py-24">
+        <div class="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(255,255,255,0.14),transparent_42%)]"></div>
+        <div class="absolute -left-24 top-0 h-80 w-80 rounded-full bg-emerald-900/20 blur-[110px]"></div>
+        <div class="absolute -right-24 bottom-0 h-96 w-96 rounded-full bg-green-300/20 blur-[120px]"></div>
+
+        <div class="relative z-10 mx-auto max-w-7xl">
+            <h2 class="font-heading text-4xl font-black leading-tight text-white sm:text-5xl lg:text-6xl">
+                Ready to grow your business with WhatsApp?
+            </h2>
+            <p class="mx-auto mt-7 max-w-3xl text-lg leading-8 text-white sm:text-xl sm:leading-9">
+                Join 500+ businesses in Tamil Nadu who are already automating conversations and closing more sales.
+                Set up takes just 5 minutes &mdash; and you get 20% off your first purchase.
+            </p>
+
+            <div class="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
+                <a href="index.php#book-free-demo" class="inline-flex min-w-[260px] items-center justify-center rounded-full bg-white px-8 py-5 text-base font-black text-teal-700 shadow-xl transition-all duration-300 hover:-translate-y-1 hover:bg-green-50 hover:shadow-2xl sm:min-w-[240px]">
+                    Start Free Today <span class="ml-2" aria-hidden="true">&rarr;</span>
+                </a>
+                <a href="index.php#book-free-demo" class="inline-flex min-w-[220px] items-center justify-center rounded-full border-2 border-white/45 bg-white/5 px-8 py-5 text-base font-black text-white backdrop-blur-sm transition-all duration-300 hover:-translate-y-1 hover:border-white hover:bg-white/15">
+                    Book a Demo
+                </a>
+            </div>
+
+            <p class="mt-7 text-sm font-semibold text-white/60 sm:text-base">
+                No credit card required. Free 14-day trial. Cancel anytime.
+            </p>
         </div>
     </section>
 

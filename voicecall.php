@@ -149,6 +149,7 @@
                             <svg class="absolute w-full h-4 -bottom-1 left-0 -z-10 text-indigo-300 dark:text-indigo-600/40" viewBox="0 0 200 9" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.00021 6.84033C47.851 1.70617 114.737 -1.63753 197.989 6.84033" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
                         </span>
                     </h1>
+                    <h3 class="mt-5 text-lg font-black text-gray-900 dark:text-white">– Reach Thousands Instantly Across Chennai, Coimbatore, Madurai & Beyond</h3>
                     
                     <p class="text-lg sm:text-xl text-gray-600 dark:text-slate-300 mb-10 leading-relaxed max-w-2xl font-medium">
                         My Dreams Technology delivers high-quality bulk voice call services, voice OBD campaigns, and voice call API solutions for businesses, political parties, educational institutions, and enterprises across all districts of Tamil Nadu — at the most affordable price per call.
@@ -273,7 +274,7 @@
     </section>
 
     <!-- Feature Block 1: How It Helps (Image Left, Content Right) -->
-    <section class="py-24 bg-white dark:bg-[#060c18] transition-colors duration-300 relative overflow-hidden">
+    <!-- <section class="py-24 bg-white dark:bg-[#060c18] transition-colors duration-300 relative overflow-hidden">
         <div class="absolute top-0 right-0 w-full h-full overflow-hidden pointer-events-none">
             <div class="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg width=\'60\' height=\'60\' viewBox=\'0 0 60 60\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cg fill=\'none\' fill-rule=\'evenodd\'%3E%3Cpath d=\'M30 60L0 45V15L30 0l30 15v30L30 60zM15 45l15 15 15-15V15L30 0 15 15v30z\' fill=\'%236366f1\' fill-opacity=\'0.03\'/%3E%3C/g%3E%3C/svg%3E')] dark:opacity-20 opacity-50"></div>
             <div class="absolute -top-32 -left-32 w-96 h-96 bg-indigo-500/20 rounded-full blur-[120px] animate-[pulse_8s_ease-in-out_infinite]"></div>
@@ -318,7 +319,6 @@
                 </div>
             </div>
 
-            <!-- Feature Block 2: Strategy (Content Left, Image Right) -->
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
                 <div class="order-2 lg:order-1" data-aos="fade-right">
                     <div class="inline-flex items-center space-x-2 bg-purple-50 dark:bg-purple-900/30 px-4 py-2 rounded-full mb-6 border border-purple-100 dark:border-purple-800/50 shadow-sm transform transition-transform hover:-translate-y-1">
@@ -352,7 +352,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- Voice Call Services Section -->
     <section class="relative overflow-hidden bg-white py-14 dark:bg-[#060c18]">
@@ -573,7 +573,7 @@
     </section> -->
 
     <!-- Why We Are Best Section (Text Left, Staggered Grid Right) -->
-    <section class="py-24 bg-gradient-to-br from-indigo-50/50 to-purple-50/50 dark:from-[#060c18] dark:to-[#0a1128] transition-colors duration-300 relative overflow-hidden">
+    <!-- <section class="py-24 bg-gradient-to-br from-indigo-50/50 to-purple-50/50 dark:from-[#060c18] dark:to-[#0a1128] transition-colors duration-300 relative overflow-hidden">
         <div class="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none -z-10">
             <div class="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-indigo-400/20 dark:bg-indigo-600/10 rounded-full blur-[120px] animate-[pulse_8s_ease-in-out_infinite]"></div>
             <div class="absolute bottom-[-10%] right-[-5%] w-[50%] h-[50%] bg-purple-400/20 dark:bg-purple-600/10 rounded-full blur-[120px] animate-[pulse_10s_ease-in-out_infinite_alternate]"></div>
@@ -634,7 +634,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- Reach Every Corner CTA Banner -->
     <section class="relative overflow-hidden bg-gradient-to-r from-indigo-700 via-purple-700 to-indigo-800 px-4 py-12 text-center">

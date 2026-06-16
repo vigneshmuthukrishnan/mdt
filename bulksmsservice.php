@@ -843,84 +843,142 @@
 
             <div class="mt-8 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
                 <article class="group rounded-3xl border border-blue-100 bg-gradient-to-br from-white to-blue-50/70 p-6 shadow-[0_12px_35px_rgba(37,99,235,0.08)] transition-all duration-500 hover:-translate-y-2 hover:border-blue-300 hover:shadow-[0_20px_45px_rgba(37,99,235,0.16)] dark:border-blue-900/60 dark:from-slate-900/90 dark:to-blue-950/50">
-                    <span class="flex h-14 w-14 items-center justify-center rounded-2xl bg-blue-100 text-3xl shadow-sm ring-1 ring-blue-200 transition-transform duration-500 group-hover:scale-110 group-hover:-rotate-3 dark:bg-blue-900/70 dark:ring-blue-700/60" aria-hidden="true">&#x1F3EB;</span>
+                    <span class="flex h-14 w-14 items-center justify-center rounded-2xl bg-blue-100 text-blue-600 shadow-sm ring-1 ring-blue-200 transition-transform duration-500 group-hover:scale-110 group-hover:-rotate-3 dark:bg-blue-900/70 dark:text-cyan-400 dark:ring-blue-700/60" aria-hidden="true">
+                        <svg class="h-8 w-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M4 20V8.5a2 2 0 0 1 1.12-1.8l6-3a2 2 0 0 1 1.76 0l6 3A2 2 0 0 1 20 8.5V20" />
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M3 20h18M8 20v-5h8v5M8 10h.01M12 10h.01M16 10h.01" />
+                        </svg>
+                    </span>
                     <h3 class="mt-5 text-lg font-bold text-slate-950 dark:text-white">Education &amp; Coaching</h3>
                     <p class="mt-3 leading-7 text-slate-600 dark:text-slate-300">Exam alerts, fee reminders, results, admission updates, and attendance notifications to students and parents across Tamil Nadu.</p>
                     <span class="mt-5 inline-flex rounded-full bg-cyan-50 px-3 py-1 text-xs font-bold text-cyan-700 ring-1 ring-cyan-200 dark:bg-cyan-900/30 dark:text-cyan-300 dark:ring-cyan-700/50">Transactional + Promotional</span>
                 </article>
 
                 <article class="group rounded-3xl border border-blue-100 bg-gradient-to-br from-white to-blue-50/70 p-6 shadow-[0_12px_35px_rgba(37,99,235,0.08)] transition-all duration-500 hover:-translate-y-2 hover:border-blue-300 hover:shadow-[0_20px_45px_rgba(37,99,235,0.16)] dark:border-blue-900/60 dark:from-slate-900/90 dark:to-blue-950/50">
-                    <span class="flex h-14 w-14 items-center justify-center rounded-2xl bg-blue-100 text-3xl shadow-sm ring-1 ring-blue-200 transition-transform duration-500 group-hover:scale-110 group-hover:-rotate-3 dark:bg-blue-900/70 dark:ring-blue-700/60" aria-hidden="true">&#x1F3E5;</span>
+                    <span class="flex h-14 w-14 items-center justify-center rounded-2xl bg-blue-100 text-blue-600 shadow-sm ring-1 ring-blue-200 transition-transform duration-500 group-hover:scale-110 group-hover:-rotate-3 dark:bg-blue-900/70 dark:text-cyan-400 dark:ring-blue-700/60" aria-hidden="true">
+                        <svg class="h-8 w-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M5 20V7a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v13M3 20h18" />
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M12 8v7M8.5 11.5h7M8 20v-3h8v3" />
+                        </svg>
+                    </span>
                     <h3 class="mt-5 text-lg font-bold text-slate-950 dark:text-white">Healthcare &amp; Hospitals</h3>
                     <p class="mt-3 leading-7 text-slate-600 dark:text-slate-300">Appointment reminders, prescription alerts, health camp promotions, lab report notifications &mdash; reach patients reliably, even on DND.</p>
                     <span class="mt-5 inline-flex rounded-full bg-cyan-50 px-3 py-1 text-xs font-bold text-cyan-700 ring-1 ring-cyan-200 dark:bg-cyan-900/30 dark:text-cyan-300 dark:ring-cyan-700/50">Transactional + OTP</span>
                 </article>
 
                 <article class="group rounded-3xl border border-blue-100 bg-gradient-to-br from-white to-blue-50/70 p-6 shadow-[0_12px_35px_rgba(37,99,235,0.08)] transition-all duration-500 hover:-translate-y-2 hover:border-blue-300 hover:shadow-[0_20px_45px_rgba(37,99,235,0.16)] dark:border-blue-900/60 dark:from-slate-900/90 dark:to-blue-950/50">
-                    <span class="flex h-14 w-14 items-center justify-center rounded-2xl bg-blue-100 text-3xl shadow-sm ring-1 ring-blue-200 transition-transform duration-500 group-hover:scale-110 group-hover:-rotate-3 dark:bg-blue-900/70 dark:ring-blue-700/60" aria-hidden="true">&#x1F6D2;</span>
+                    <span class="flex h-14 w-14 items-center justify-center rounded-2xl bg-blue-100 text-blue-600 shadow-sm ring-1 ring-blue-200 transition-transform duration-500 group-hover:scale-110 group-hover:-rotate-3 dark:bg-blue-900/70 dark:text-cyan-400 dark:ring-blue-700/60" aria-hidden="true">
+                        <svg class="h-8 w-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M3 4h2l2.2 10.4A2 2 0 0 0 9.16 16h7.72a2 2 0 0 0 1.92-1.46L21 7H6" />
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M9 20h.01M18 20h.01" />
+                        </svg>
+                    </span>
                     <h3 class="mt-5 text-lg font-bold text-slate-950 dark:text-white">Retail &amp; E-Commerce</h3>
                     <p class="mt-3 leading-7 text-slate-600 dark:text-slate-300">Flash sale alerts, order confirmations, shipping updates, discount codes, and loyalty programme notifications to drive repeat purchases.</p>
                     <span class="mt-5 inline-flex rounded-full bg-cyan-50 px-3 py-1 text-xs font-bold text-cyan-700 ring-1 ring-cyan-200 dark:bg-cyan-900/30 dark:text-cyan-300 dark:ring-cyan-700/50">Promotional + Transactional</span>
                 </article>
 
                 <article class="group rounded-3xl border border-blue-100 bg-gradient-to-br from-white to-blue-50/70 p-6 shadow-[0_12px_35px_rgba(37,99,235,0.08)] transition-all duration-500 hover:-translate-y-2 hover:border-blue-300 hover:shadow-[0_20px_45px_rgba(37,99,235,0.16)] dark:border-blue-900/60 dark:from-slate-900/90 dark:to-blue-950/50">
-                    <span class="flex h-14 w-14 items-center justify-center rounded-2xl bg-blue-100 text-3xl shadow-sm ring-1 ring-blue-200 transition-transform duration-500 group-hover:scale-110 group-hover:-rotate-3 dark:bg-blue-900/70 dark:ring-blue-700/60" aria-hidden="true">&#x1F3E6;</span>
+                    <span class="flex h-14 w-14 items-center justify-center rounded-2xl bg-blue-100 text-blue-600 shadow-sm ring-1 ring-blue-200 transition-transform duration-500 group-hover:scale-110 group-hover:-rotate-3 dark:bg-blue-900/70 dark:text-cyan-400 dark:ring-blue-700/60" aria-hidden="true">
+                        <svg class="h-8 w-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M3 10h18L12 4 3 10ZM5 10v8M9 10v8M15 10v8M19 10v8M3 20h18" />
+                        </svg>
+                    </span>
                     <h3 class="mt-5 text-lg font-bold text-slate-950 dark:text-white">Banking &amp; Finance</h3>
                     <p class="mt-3 leading-7 text-slate-600 dark:text-slate-300">Secure OTP delivery, transaction alerts, loan reminders, EMI due dates, and KYC notifications &mdash; 24&times;7, 100% TRAI-compliant.</p>
                     <span class="mt-5 inline-flex rounded-full bg-cyan-50 px-3 py-1 text-xs font-bold text-cyan-700 ring-1 ring-cyan-200 dark:bg-cyan-900/30 dark:text-cyan-300 dark:ring-cyan-700/50">OTP + Transactional</span>
                 </article>
 
                 <article class="group rounded-3xl border border-blue-100 bg-gradient-to-br from-white to-blue-50/70 p-6 shadow-[0_12px_35px_rgba(37,99,235,0.08)] transition-all duration-500 hover:-translate-y-2 hover:border-blue-300 hover:shadow-[0_20px_45px_rgba(37,99,235,0.16)] dark:border-blue-900/60 dark:from-slate-900/90 dark:to-blue-950/50">
-                    <span class="flex h-14 w-14 items-center justify-center rounded-2xl bg-blue-100 text-3xl shadow-sm ring-1 ring-blue-200 transition-transform duration-500 group-hover:scale-110 group-hover:-rotate-3 dark:bg-blue-900/70 dark:ring-blue-700/60" aria-hidden="true">&#x1F9F5;</span>
+                    <span class="flex h-14 w-14 items-center justify-center rounded-2xl bg-blue-100 text-blue-600 shadow-sm ring-1 ring-blue-200 transition-transform duration-500 group-hover:scale-110 group-hover:-rotate-3 dark:bg-blue-900/70 dark:text-cyan-400 dark:ring-blue-700/60" aria-hidden="true">
+                        <svg class="h-8 w-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M4 20V9l5 3V9l5 3V7.5A2.5 2.5 0 0 1 16.5 5H20v15H4Z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M8 16h.01M12 16h.01M16 16h.01" />
+                        </svg>
+                    </span>
                     <h3 class="mt-5 text-lg font-bold text-slate-950 dark:text-white">Textile &amp; Manufacturing</h3>
                     <p class="mt-3 leading-7 text-slate-600 dark:text-slate-300">Bulk orders, dispatch updates, supplier alerts, and employee shift notifications &mdash; ideal for Tiruppur, Erode, and Karur industries.</p>
                     <span class="mt-5 inline-flex rounded-full bg-cyan-50 px-3 py-1 text-xs font-bold text-cyan-700 ring-1 ring-cyan-200 dark:bg-cyan-900/30 dark:text-cyan-300 dark:ring-cyan-700/50">Transactional + Promotional</span>
                 </article>
 
                 <article class="group rounded-3xl border border-blue-100 bg-gradient-to-br from-white to-blue-50/70 p-6 shadow-[0_12px_35px_rgba(37,99,235,0.08)] transition-all duration-500 hover:-translate-y-2 hover:border-blue-300 hover:shadow-[0_20px_45px_rgba(37,99,235,0.16)] dark:border-blue-900/60 dark:from-slate-900/90 dark:to-blue-950/50">
-                    <span class="flex h-14 w-14 items-center justify-center rounded-2xl bg-blue-100 text-3xl shadow-sm ring-1 ring-blue-200 transition-transform duration-500 group-hover:scale-110 group-hover:-rotate-3 dark:bg-blue-900/70 dark:ring-blue-700/60" aria-hidden="true">&#x1F3D7;&#xFE0F;</span>
+                    <span class="flex h-14 w-14 items-center justify-center rounded-2xl bg-blue-100 text-blue-600 shadow-sm ring-1 ring-blue-200 transition-transform duration-500 group-hover:scale-110 group-hover:-rotate-3 dark:bg-blue-900/70 dark:text-cyan-400 dark:ring-blue-700/60" aria-hidden="true">
+                        <svg class="h-8 w-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M4 20V6a2 2 0 0 1 2-2h8v16M14 9h4a2 2 0 0 1 2 2v9M3 20h18" />
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M8 8h2M8 12h2M8 16h2M17 13h.01M17 17h.01" />
+                        </svg>
+                    </span>
                     <h3 class="mt-5 text-lg font-bold text-slate-950 dark:text-white">Real Estate</h3>
                     <p class="mt-3 leading-7 text-slate-600 dark:text-slate-300">Property launch alerts, site visit reminders, EMI schedules, and payment due notifications to buyers and investors across Tamil Nadu.</p>
                     <span class="mt-5 inline-flex rounded-full bg-cyan-50 px-3 py-1 text-xs font-bold text-cyan-700 ring-1 ring-cyan-200 dark:bg-cyan-900/30 dark:text-cyan-300 dark:ring-cyan-700/50">Promotional + Transactional</span>
                 </article>
 
                 <article class="group rounded-3xl border border-blue-100 bg-gradient-to-br from-white to-blue-50/70 p-6 shadow-[0_12px_35px_rgba(37,99,235,0.08)] transition-all duration-500 hover:-translate-y-2 hover:border-blue-300 hover:shadow-[0_20px_45px_rgba(37,99,235,0.16)] dark:border-blue-900/60 dark:from-slate-900/90 dark:to-blue-950/50">
-                    <span class="flex h-14 w-14 items-center justify-center rounded-2xl bg-blue-100 text-3xl shadow-sm ring-1 ring-blue-200 transition-transform duration-500 group-hover:scale-110 group-hover:-rotate-3 dark:bg-blue-900/70 dark:ring-blue-700/60" aria-hidden="true">&#x1F37D;&#xFE0F;</span>
+                    <span class="flex h-14 w-14 items-center justify-center rounded-2xl bg-blue-100 text-blue-600 shadow-sm ring-1 ring-blue-200 transition-transform duration-500 group-hover:scale-110 group-hover:-rotate-3 dark:bg-blue-900/70 dark:text-cyan-400 dark:ring-blue-700/60" aria-hidden="true">
+                        <svg class="h-8 w-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M7 3v8M4 3v4a4 4 0 0 0 8 0V3M7 11v10M17 3v18M17 3c2 1.5 3 3.5 3 6s-1 4.5-3 6" />
+                        </svg>
+                    </span>
                     <h3 class="mt-5 text-lg font-bold text-slate-950 dark:text-white">Restaurants &amp; Food</h3>
                     <p class="mt-3 leading-7 text-slate-600 dark:text-slate-300">Daily specials, festival offers, table booking confirmations, delivery status, and loyalty cashback alerts to keep customers coming back.</p>
                     <span class="mt-5 inline-flex rounded-full bg-cyan-50 px-3 py-1 text-xs font-bold text-cyan-700 ring-1 ring-cyan-200 dark:bg-cyan-900/30 dark:text-cyan-300 dark:ring-cyan-700/50">Promotional + OTP</span>
                 </article>
 
                 <article class="group rounded-3xl border border-blue-100 bg-gradient-to-br from-white to-blue-50/70 p-6 shadow-[0_12px_35px_rgba(37,99,235,0.08)] transition-all duration-500 hover:-translate-y-2 hover:border-blue-300 hover:shadow-[0_20px_45px_rgba(37,99,235,0.16)] dark:border-blue-900/60 dark:from-slate-900/90 dark:to-blue-950/50">
-                    <span class="flex h-14 w-14 items-center justify-center rounded-2xl bg-blue-100 text-3xl shadow-sm ring-1 ring-blue-200 transition-transform duration-500 group-hover:scale-110 group-hover:-rotate-3 dark:bg-blue-900/70 dark:ring-blue-700/60" aria-hidden="true">&#x1F4E3;</span>
+                    <span class="flex h-14 w-14 items-center justify-center rounded-2xl bg-blue-100 text-blue-600 shadow-sm ring-1 ring-blue-200 transition-transform duration-500 group-hover:scale-110 group-hover:-rotate-3 dark:bg-blue-900/70 dark:text-cyan-400 dark:ring-blue-700/60" aria-hidden="true">
+                        <svg class="h-8 w-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M4 13h3l9 4V7l-9 4H4v2Z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M7 13l1.5 6h3L10 14M19 9.5c.8.7 1.2 1.5 1.2 2.5s-.4 1.8-1.2 2.5" />
+                        </svg>
+                    </span>
                     <h3 class="mt-5 text-lg font-bold text-slate-950 dark:text-white">Political &amp; NGOs</h3>
                     <p class="mt-3 leading-7 text-slate-600 dark:text-slate-300">Campaign outreach, voter awareness drives, fundraising alerts, event mobilisation, and community announcements at scale.</p>
                     <span class="mt-5 inline-flex rounded-full bg-cyan-50 px-3 py-1 text-xs font-bold text-cyan-700 ring-1 ring-cyan-200 dark:bg-cyan-900/30 dark:text-cyan-300 dark:ring-cyan-700/50">Promotional</span>
                 </article>
 
                 <article class="group rounded-3xl border border-blue-100 bg-gradient-to-br from-white to-blue-50/70 p-6 shadow-[0_12px_35px_rgba(37,99,235,0.08)] transition-all duration-500 hover:-translate-y-2 hover:border-blue-300 hover:shadow-[0_20px_45px_rgba(37,99,235,0.16)] dark:border-blue-900/60 dark:from-slate-900/90 dark:to-blue-950/50">
-                    <span class="flex h-14 w-14 items-center justify-center rounded-2xl bg-blue-100 text-3xl shadow-sm ring-1 ring-blue-200 transition-transform duration-500 group-hover:scale-110 group-hover:-rotate-3 dark:bg-blue-900/70 dark:ring-blue-700/60" aria-hidden="true">&#x1F697;</span>
+                    <span class="flex h-14 w-14 items-center justify-center rounded-2xl bg-blue-100 text-blue-600 shadow-sm ring-1 ring-blue-200 transition-transform duration-500 group-hover:scale-110 group-hover:-rotate-3 dark:bg-blue-900/70 dark:text-cyan-400 dark:ring-blue-700/60" aria-hidden="true">
+                        <svg class="h-8 w-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M5 17h14M6 17v2M18 17v2M5 13l2-5a2 2 0 0 1 1.86-1.25h6.28A2 2 0 0 1 17 8l2 5v4H5v-4Z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M7.5 13h.01M16.5 13h.01" />
+                        </svg>
+                    </span>
                     <h3 class="mt-5 text-lg font-bold text-slate-950 dark:text-white">Automobile &amp; Service</h3>
                     <p class="mt-3 leading-7 text-slate-600 dark:text-slate-300">Service due reminders, insurance renewal alerts, new model launches, and customer feedback requests for dealerships and garages.</p>
                     <span class="mt-5 inline-flex rounded-full bg-cyan-50 px-3 py-1 text-xs font-bold text-cyan-700 ring-1 ring-cyan-200 dark:bg-cyan-900/30 dark:text-cyan-300 dark:ring-cyan-700/50">Transactional + Promotional</span>
                 </article>
 
                 <article class="group rounded-3xl border border-blue-100 bg-gradient-to-br from-white to-blue-50/70 p-6 shadow-[0_12px_35px_rgba(37,99,235,0.08)] transition-all duration-500 hover:-translate-y-2 hover:border-blue-300 hover:shadow-[0_20px_45px_rgba(37,99,235,0.16)] dark:border-blue-900/60 dark:from-slate-900/90 dark:to-blue-950/50">
-                    <span class="flex h-14 w-14 items-center justify-center rounded-2xl bg-blue-100 text-3xl shadow-sm ring-1 ring-blue-200 transition-transform duration-500 group-hover:scale-110 group-hover:-rotate-3 dark:bg-blue-900/70 dark:ring-blue-700/60" aria-hidden="true">&#x2708;&#xFE0F;</span>
+                    <span class="flex h-14 w-14 items-center justify-center rounded-2xl bg-blue-100 text-blue-600 shadow-sm ring-1 ring-blue-200 transition-transform duration-500 group-hover:scale-110 group-hover:-rotate-3 dark:bg-blue-900/70 dark:text-cyan-400 dark:ring-blue-700/60" aria-hidden="true">
+                        <svg class="h-8 w-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M21 16 3 21l5-9-5-9 18 5-8 4 8 4Z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M8 12h5" />
+                        </svg>
+                    </span>
                     <h3 class="mt-5 text-lg font-bold text-slate-950 dark:text-white">Travel &amp; Tourism</h3>
                     <p class="mt-3 leading-7 text-slate-600 dark:text-slate-300">Booking confirmations, tour reminders, package offer alerts, and cancellation notices for travel agents across all Tamil Nadu districts.</p>
                     <span class="mt-5 inline-flex rounded-full bg-cyan-50 px-3 py-1 text-xs font-bold text-cyan-700 ring-1 ring-cyan-200 dark:bg-cyan-900/30 dark:text-cyan-300 dark:ring-cyan-700/50">Transactional + Promotional</span>
                 </article>
 
                 <article class="group rounded-3xl border border-blue-100 bg-gradient-to-br from-white to-blue-50/70 p-6 shadow-[0_12px_35px_rgba(37,99,235,0.08)] transition-all duration-500 hover:-translate-y-2 hover:border-blue-300 hover:shadow-[0_20px_45px_rgba(37,99,235,0.16)] dark:border-blue-900/60 dark:from-slate-900/90 dark:to-blue-950/50">
-                    <span class="flex h-14 w-14 items-center justify-center rounded-2xl bg-blue-100 text-3xl shadow-sm ring-1 ring-blue-200 transition-transform duration-500 group-hover:scale-110 group-hover:-rotate-3 dark:bg-blue-900/70 dark:ring-blue-700/60" aria-hidden="true">&#x1F4BC;</span>
+                    <span class="flex h-14 w-14 items-center justify-center rounded-2xl bg-blue-100 text-blue-600 shadow-sm ring-1 ring-blue-200 transition-transform duration-500 group-hover:scale-110 group-hover:-rotate-3 dark:bg-blue-900/70 dark:text-cyan-400 dark:ring-blue-700/60" aria-hidden="true">
+                        <svg class="h-8 w-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M9 7V6a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v1M5 8h14a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-8a2 2 0 0 1 2-2Z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M3 13h18M12 12v2" />
+                        </svg>
+                    </span>
                     <h3 class="mt-5 text-lg font-bold text-slate-950 dark:text-white">Staffing &amp; HR</h3>
                     <p class="mt-3 leading-7 text-slate-600 dark:text-slate-300">Interview schedules, job alerts, payslip notifications, attendance updates, and employee engagement messages at scale.</p>
                     <span class="mt-5 inline-flex rounded-full bg-cyan-50 px-3 py-1 text-xs font-bold text-cyan-700 ring-1 ring-cyan-200 dark:bg-cyan-900/30 dark:text-cyan-300 dark:ring-cyan-700/50">Transactional</span>
                 </article>
 
                 <article class="group rounded-3xl border border-blue-100 bg-gradient-to-br from-white to-blue-50/70 p-6 shadow-[0_12px_35px_rgba(37,99,235,0.08)] transition-all duration-500 hover:-translate-y-2 hover:border-blue-300 hover:shadow-[0_20px_45px_rgba(37,99,235,0.16)] dark:border-blue-900/60 dark:from-slate-900/90 dark:to-blue-950/50">
-                    <span class="flex h-14 w-14 items-center justify-center rounded-2xl bg-blue-100 text-3xl shadow-sm ring-1 ring-blue-200 transition-transform duration-500 group-hover:scale-110 group-hover:-rotate-3 dark:bg-blue-900/70 dark:ring-blue-700/60" aria-hidden="true">&#x1F4E6;</span>
+                    <span class="flex h-14 w-14 items-center justify-center rounded-2xl bg-blue-100 text-blue-600 shadow-sm ring-1 ring-blue-200 transition-transform duration-500 group-hover:scale-110 group-hover:-rotate-3 dark:bg-blue-900/70 dark:text-cyan-400 dark:ring-blue-700/60" aria-hidden="true">
+                        <svg class="h-8 w-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M12 3 4 7l8 4 8-4-8-4ZM4 7v10l8 4 8-4V7M12 11v10" />
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="m8 5 8 4" />
+                        </svg>
+                    </span>
                     <h3 class="mt-5 text-lg font-bold text-slate-950 dark:text-white">Logistics &amp; Supply Chain</h3>
                     <p class="mt-3 leading-7 text-slate-600 dark:text-slate-300">Shipment tracking updates, delivery confirmations, driver alerts, and warehouse notifications for smooth operations across Tamil Nadu.</p>
                     <span class="mt-5 inline-flex rounded-full bg-cyan-50 px-3 py-1 text-xs font-bold text-cyan-700 ring-1 ring-cyan-200 dark:bg-cyan-900/30 dark:text-cyan-300 dark:ring-cyan-700/50">Transactional + OTP</span>

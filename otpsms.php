@@ -183,7 +183,7 @@
                             <span class="relative inline-flex rounded-full h-3 w-3 bg-orange-400"></span>
                         </span>
                         <span class="text-sm font-semibold bg-clip-text text-transparent bg-gradient-to-r from-orange-600 to-amber-600 tracking-wide uppercase">
-                            OTP SMS / SMS API Service Provider
+                            Trusted OTP SMS Service — Tamil Nadu
                         </span>
                     </div>
                     
@@ -328,7 +328,7 @@
     </section>
 
     <!-- Feature Block 1: Conversion (Image Left, Content Right) -->
-    <section class="py-24 bg-white dark:bg-[#060c18] transition-colors duration-300 relative overflow-hidden">
+    <!-- <section class="py-24 bg-white dark:bg-[#060c18] transition-colors duration-300 relative overflow-hidden">
         <div class="absolute top-0 right-0 w-full h-full overflow-hidden pointer-events-none">
             <div class="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg width=\'60\' height=\'60\' viewBox=\'0 0 60 60\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cg fill=\'none\' fill-rule=\'evenodd\'%3E%3Cpath d=\'M30 60L0 45V15L30 0l30 15v30L30 60zM15 45l15 15 15-15V15L30 0 15 15v30z\' fill=\'%23f59e0b\' fill-opacity=\'0.03\'/%3E%3C/g%3E%3C/svg%3E')] dark:opacity-20 opacity-50"></div>
             <div class="absolute -top-32 -left-32 w-96 h-96 bg-amber-500/20 rounded-full blur-[120px] animate-[pulse_8s_ease-in-out_infinite]"></div>
@@ -353,7 +353,6 @@
                         <div class="absolute left-6 top-10 bottom-10 w-0.5 bg-gradient-to-b from-amber-500 via-orange-400 to-transparent opacity-30 dark:opacity-50 hidden sm:block"></div>
                         <div class="relative pl-0 sm:pl-16 group">
                             <div class="hidden sm:flex absolute left-0 top-1 w-12 h-12 bg-white dark:bg-slate-800 rounded-xl shadow-lg border border-amber-100 dark:border-slate-700 items-center justify-center transform transition-all duration-300 group-hover:scale-110 group-hover:rotate-6 z-10">
-                                <!-- <svg class="w-6 h-6 text-amber-600 dark:text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path></svg> -->
                                 <svg class="w-6 h-6 text-amber-600 dark:text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
                             </div>
                             <div class="bg-white/50 dark:bg-slate-800/30 p-4 rounded-xl border border-transparent hover:border-amber-100 dark:hover:border-slate-700 transition-colors backdrop-blur-sm">
@@ -383,7 +382,6 @@
                 </div>
             </div>
 
-            <!-- Feature Block 2: Delivery (Content Left, Image Right) -->
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
                 <div class="order-2 lg:order-1" data-aos="fade-right">
                     <div class="inline-flex items-center space-x-2 bg-orange-50 dark:bg-orange-900/30 px-4 py-2 rounded-full mb-6 border border-orange-100 dark:border-orange-800/50 shadow-sm transform transition-transform hover:-translate-y-1">
@@ -431,7 +429,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- Why Choose Us Section -->
     <!-- <section class="py-24 bg-gray-50 dark:bg-[#0a0f1c] transition-colors duration-300 relative overflow-hidden" id="why-choose-us">
@@ -657,7 +655,7 @@
     </section>
 
     <!-- Why We Are Best Section -->
-    <section class="py-24 bg-gradient-to-br from-amber-50/50 to-orange-50/50 dark:from-[#060c18] dark:to-[#0a1128] transition-colors duration-300 relative overflow-hidden">
+    <!-- <section class="py-24 bg-gradient-to-br from-amber-50/50 to-orange-50/50 dark:from-[#060c18] dark:to-[#0a1128] transition-colors duration-300 relative overflow-hidden">
         <div class="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none -z-10">
             <div class="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-amber-400/20 dark:bg-amber-600/10 rounded-full blur-[120px] animate-[pulse_8s_ease-in-out_infinite]"></div>
             <div class="absolute bottom-[-10%] right-[-5%] w-[50%] h-[50%] bg-orange-400/20 dark:bg-orange-600/10 rounded-full blur-[120px] animate-[pulse_10s_ease-in-out_infinite_alternate]"></div>
@@ -718,7 +716,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     
     <!-- OTP Industries Section -->
     <section class="otp-orange-theme relative overflow-hidden bg-gradient-to-br from-indigo-50 via-white to-blue-50 py-14 dark:from-[#080d20] dark:via-[#060c18] dark:to-[#08142d]">

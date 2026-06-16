@@ -1,5 +1,44 @@
 <!-- Header -->
 <header class="fixed w-full top-0 z-50 bg-white/90 dark:bg-[#020617]/90 backdrop-blur-xl border-b border-slate-200/50 dark:border-white/5 transition-all duration-500" id="navbar">
+    <style>
+        #mobile-menu {
+            position: fixed;
+            inset: 0;
+            z-index: 9999;
+            display: none;
+            opacity: 0;
+            background: rgba(15, 23, 42, 0.6);
+            backdrop-filter: blur(8px);
+            transition: opacity 300ms ease;
+        }
+
+        #mobile-menu.mobile-menu-open {
+            display: block !important;
+            opacity: 1;
+        }
+
+        #mobile-menu-panel {
+            position: absolute;
+            top: 0;
+            right: 0;
+            height: 100vh;
+            height: 100dvh;
+            width: min(20rem, 100%);
+            transform: translateX(100%);
+            transition: transform 300ms ease;
+        }
+
+        #mobile-menu.mobile-menu-open #mobile-menu-panel {
+            transform: translateX(0);
+        }
+
+        @media (min-width: 1024px) {
+            #mobile-menu {
+                display: none !important;
+            }
+        }
+    </style>
+
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex justify-between items-center h-20">
             <!-- Logo -->
@@ -113,7 +152,7 @@
                 </div>
 
                 <!-- Mobile menu button -->
-                <button type="button" id="mobile-menu-btn" class="lg:hidden text-slate-600 dark:text-slate-300 hover:text-indigo-600 p-2 transition-colors">
+                <button type="button" id="mobile-menu-btn" class="lg:hidden text-slate-600 dark:text-slate-300 hover:text-indigo-600 p-2 transition-colors" aria-controls="mobile-menu" aria-expanded="false">
                     <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
                 </button>
             </div>
@@ -121,8 +160,8 @@
     </div>
 
     <!-- Mobile Menu Overlay -->
-    <div id="mobile-menu" class="fixed inset-0 bg-slate-900/60 backdrop-blur-sm z-50 hidden opacity-0 transition-opacity duration-300 lg:hidden">
-        <div class="absolute right-0 top-0 h-full w-full max-w-xs bg-white dark:bg-[#020617] shadow-2xl transform translate-x-full transition-transform duration-300 overflow-y-auto flex flex-col">
+    <div id="mobile-menu" class="fixed inset-0 bg-slate-900/60 backdrop-blur-sm z-50 hidden opacity-0 transition-opacity duration-300 lg:hidden" aria-hidden="true">
+        <div id="mobile-menu-panel" class="absolute right-0 top-0 h-full w-full max-w-xs bg-white dark:bg-[#020617] shadow-2xl transform translate-x-full transition-transform duration-300 overflow-y-auto flex flex-col">
             <div class="p-6 border-b border-slate-100 dark:border-white/5 flex justify-between items-center">
                 <img src="assets/img/My Dreams2-logo.png" alt="Logo" class="h-6 w-auto">
                 <button id="close-mobile-menu" class="text-slate-400 hover:text-indigo-600 transition-colors p-2">
@@ -131,17 +170,78 @@
             </div>
             
             <div class="p-6 flex-1 space-y-8">
-                <nav class="space-y-1">
-                    <p class="text-[10px] font-black text-slate-400 uppercase tracking-[0.2em] mb-4">Main Menu</p>
-                    <a href="index.php" class="block py-3 text-lg font-bold text-slate-900 dark:text-white">Home</a>
-                    <a href="bulksmsservice.php" class="block py-3 text-lg font-bold text-slate-900 dark:text-white">Products</a>
-                    <a href="pricing.php" class="block py-3 text-lg font-bold text-slate-900 dark:text-white">Pricing</a>
-                    <a href="resellerservice.php" class="block py-3 text-lg font-bold text-slate-900 dark:text-white">Partners</a>
-                    <a href="contact.php" class="block py-3 text-lg font-bold text-slate-900 dark:text-white">Contact</a>
+                <nav class="space-y-7">
+                    <div>
+                        <p class="text-[10px] font-black text-slate-400 uppercase tracking-[0.2em] mb-4">Products</p>
+                        <div class="space-y-5">
+                            <div>
+                                <p class="mb-3 text-[11px] font-black uppercase tracking-[0.18em] text-slate-400 dark:text-slate-500">Messaging</p>
+                                <div class="space-y-2">
+                                    <a href="bulksmsservice.php" class="flex items-start rounded-2xl p-3 transition-colors hover:bg-indigo-50 dark:hover:bg-indigo-900/20">
+                                        <span class="mr-3 flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-indigo-50 text-indigo-600 dark:bg-indigo-900/20 dark:text-indigo-300">
+                                            <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z"/></svg>
+                                        </span>
+                                        <span><span class="block text-sm font-bold text-slate-900 dark:text-white">Bulk Messaging</span><span class="mt-1 block text-xs leading-5 text-slate-500">High-volume SMS delivery.</span></span>
+                                    </a>
+                                    <a href="otpsms.php" class="flex items-start rounded-2xl p-3 transition-colors hover:bg-purple-50 dark:hover:bg-purple-900/20">
+                                        <span class="mr-3 flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-purple-50 text-purple-600 dark:bg-purple-900/20 dark:text-purple-300">
+                                            <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/></svg>
+                                        </span>
+                                        <span><span class="block text-sm font-bold text-slate-900 dark:text-white">OTP &amp; Security</span><span class="mt-1 block text-xs leading-5 text-slate-500">Secure verification APIs.</span></span>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div>
+                                <p class="mb-3 text-[11px] font-black uppercase tracking-[0.18em] text-slate-400 dark:text-slate-500">Channels</p>
+                                <div class="space-y-2">
+                                    <a href="whatsapp.php" class="flex items-start rounded-2xl p-3 transition-colors hover:bg-green-50 dark:hover:bg-green-900/20">
+                                        <span class="mr-3 flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-green-50 text-green-600 dark:bg-green-900/20 dark:text-green-300">
+                                            <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z"/></svg>
+                                        </span>
+                                        <span><span class="block text-sm font-bold text-slate-900 dark:text-white">WhatsApp API</span><span class="mt-1 block text-xs leading-5 text-slate-500">Official Business API.</span></span>
+                                    </a>
+                                    <a href="contact.php" class="flex items-start rounded-2xl p-3 transition-colors hover:bg-blue-50 dark:hover:bg-blue-900/20">
+                                        <span class="mr-3 flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-blue-50 text-blue-600 dark:bg-blue-900/20 dark:text-blue-300">
+                                            <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z"/></svg>
+                                        </span>
+                                        <span><span class="block text-sm font-bold text-slate-900 dark:text-white">RCS Messaging</span><span class="mt-1 block text-xs leading-5 text-slate-500">Rich media communication.</span></span>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div>
+                                <p class="mb-3 text-[11px] font-black uppercase tracking-[0.18em] text-slate-400 dark:text-slate-500">Voice</p>
+                                <div class="space-y-2">
+                                    <a href="voicecall.php" class="flex items-start rounded-2xl p-3 transition-colors hover:bg-orange-50 dark:hover:bg-orange-900/20">
+                                        <span class="mr-3 flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-orange-50 text-orange-600 dark:bg-orange-900/20 dark:text-orange-300">
+                                            <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z"/></svg>
+                                        </span>
+                                        <span><span class="block text-sm font-bold text-slate-900 dark:text-white">Voice Service</span><span class="mt-1 block text-xs leading-5 text-slate-500">Automated voice alerts.</span></span>
+                                    </a>
+                                    <a href="ivrserviceprovider.php" class="flex items-start rounded-2xl p-3 transition-colors hover:bg-teal-50 dark:hover:bg-teal-900/20">
+                                        <span class="mr-3 flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-teal-50 text-teal-600 dark:bg-teal-900/20 dark:text-teal-300">
+                                            <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+                                        </span>
+                                        <span><span class="block text-sm font-bold text-slate-900 dark:text-white">IVR Systems</span><span class="mt-1 block text-xs leading-5 text-slate-500">Intelligent call routing.</span></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="border-t border-slate-100 pt-5 dark:border-white/5">
+                        <p class="text-[10px] font-black text-slate-400 uppercase tracking-[0.2em] mb-4">Main Menu</p>
+                        <a href="pricing.php" class="block rounded-xl py-3 text-lg font-bold text-slate-900 transition-colors hover:text-indigo-600 dark:text-white">Solutions</a>
+                        <a href="resellerservice.php" class="block rounded-xl py-3 text-lg font-bold text-slate-900 transition-colors hover:text-indigo-600 dark:text-white">Become partner</a>
+                        <a href="pricing.php" class="block rounded-xl py-3 text-lg font-bold text-slate-900 transition-colors hover:text-indigo-600 dark:text-white">Resource</a>
+                        <a href="pricing.php" class="block rounded-xl py-3 text-lg font-bold text-slate-900 transition-colors hover:text-indigo-600 dark:text-white">Pricing</a>
+                        <a href="contact.php" class="block rounded-xl py-3 text-lg font-bold text-slate-900 transition-colors hover:text-indigo-600 dark:text-white">Contact Us</a>
+                    </div>
                 </nav>
             </div>
             <div class="p-6 bg-slate-50 dark:bg-white/5">
-                <a href="index.php#book-free-demo" class="block w-full text-center bg-indigo-600 text-white py-4 rounded-2xl font-black transition-all shadow-lg mb-4">Create Free Account</a>
+                <a href="https://calendly.com/mydreamstechnology/bookademo" class="block w-full text-center bg-indigo-600 text-white py-4 rounded-2xl font-black transition-all shadow-lg mb-4">7824998877 / Get Started</a>
                 <p class="text-center text-xs text-slate-500">Trusted by 1000+ Businesses</p>
             </div>
         </div>
@@ -154,30 +254,45 @@
         const btn = document.getElementById('mobile-menu-btn');
         const closeBtn = document.getElementById('close-mobile-menu');
         const menu = document.getElementById('mobile-menu');
-        const menuPanel = menu.querySelector('.bg-white, .dark\\:bg-\\[\\#020617\\]');
+        const menuPanel = document.getElementById('mobile-menu-panel');
+
+        if (!btn || !menu || !menuPanel) return;
+
+        if (menu.parentElement !== document.body) {
+            document.body.appendChild(menu);
+        }
 
         function openMenu() {
             menu.classList.remove('hidden');
-            setTimeout(() => {
+            menu.setAttribute('aria-hidden', 'false');
+            btn.setAttribute('aria-expanded', 'true');
+            requestAnimationFrame(() => {
+                menu.classList.add('mobile-menu-open');
                 menu.classList.remove('opacity-0');
-                if(menuPanel) menuPanel.classList.remove('translate-x-full');
-            }, 10);
+                menuPanel.classList.remove('translate-x-full');
+            });
             document.body.style.overflow = 'hidden';
         }
 
         function closeMenu() {
+            menu.classList.remove('mobile-menu-open');
             menu.classList.add('opacity-0');
-            if(menuPanel) menuPanel.classList.add('translate-x-full');
+            menu.setAttribute('aria-hidden', 'true');
+            btn.setAttribute('aria-expanded', 'false');
+            menuPanel.classList.add('translate-x-full');
             setTimeout(() => {
                 menu.classList.add('hidden');
                 document.body.style.overflow = '';
             }, 300);
         }
 
-        if(btn) btn.addEventListener('click', openMenu);
+        btn.addEventListener('click', openMenu);
         if(closeBtn) closeBtn.addEventListener('click', closeMenu);
-        if(menu) menu.addEventListener('click', (e) => {
+        menu.addEventListener('click', (e) => {
             if(e.target === menu) closeMenu();
+        });
+        document.addEventListener('keydown', (e) => {
+            if(e.key === 'Escape' && menu.classList.contains('mobile-menu-open')) closeMenu();
         });
     });
 </script>
