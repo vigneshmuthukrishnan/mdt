@@ -381,20 +381,21 @@
                 <div class="order-2 lg:order-1" data-aos="fade-right" data-aos-duration="1000">
                     <div class="inline-flex items-center space-x-2 bg-indigo-50 dark:bg-indigo-900/30 px-4 py-2 rounded-full mb-6 border border-indigo-100 dark:border-indigo-800/50 shadow-sm transform transition-transform hover:-translate-y-1 hover:shadow-md">
                         <span class="w-2 h-2 rounded-full bg-indigo-600 dark:bg-indigo-400 animate-ping"></span>
-                        <span class="text-sm font-bold text-indigo-700 dark:text-indigo-300 tracking-wide uppercase">Brand Development</span>
+                        <span class="text-sm font-bold text-indigo-700 dark:text-indigo-300 tracking-wide uppercase">Trust Us</span>
                     </div>
                     
                     <h2 class="text-4xl md:text-5xl font-black text-gray-900 dark:text-white mb-6 font-heading leading-tight">
-                        Increase Brand <br />
-                        <span class="text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-purple-500">Awareness & ROI</span>
+                        <span class="text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-purple-500">Why Tamil Nadu Businesses Trust Us</span>
                     </h2>
                     
                     <p class="text-lg text-gray-600 dark:text-slate-300 mb-8 leading-relaxed">
-                        Increase Brand Awareness, Maintain Communication And Develop Long-Term Relations With Your Customers By Hiring Our Bulk SMS Services. Your Search for the Best BulkSMS Providers in Tamilnadu Ends with My Dreams Technology.
+                        We are one of the most efficient and fast-growing Bulk SMS providers in Tamil Nadu, offering high-quality service at genuinely affordable pricing. Our gateway connects to top telecom networks ensuring your messages are delivered instantly — from Chennai's tech corridor to rural districts like Dharmapuri and Ramanathapuram.
+                    </p>
+                    <p class="text-lg text-gray-600 dark:text-slate-300 mb-8 leading-relaxed">
+                        Subscribe to our Bulk SMS service to increase brand awareness, maintain consistent communication, and develop long-term relationships with customers across all 38 districts of Tamil Nadu.
                     </p>
 
-                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                        <!-- 3D Glass Card 1 -->
+                    <!-- <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
                         <div class="bg-white/60 dark:bg-slate-800/60 backdrop-blur-md p-6 rounded-2xl border border-white/80 dark:border-slate-700 shadow-lg transform transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl hover:border-indigo-300 dark:hover:border-indigo-500/50 group" data-tilt data-tilt-max="10" data-tilt-glare data-tilt-max-glare="0.2">
                             <div class="w-12 h-12 bg-gradient-to-br from-indigo-100 to-blue-100 dark:from-indigo-900/60 dark:to-blue-900/60 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 group-hover:rotate-6 transition-transform duration-300 shadow-sm">
                                 <svg class="w-6 h-6 text-indigo-600 dark:text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
@@ -403,7 +404,6 @@
                             <p class="text-sm text-gray-600 dark:text-slate-400">Maximize your marketing budget with cost-effective messaging.</p>
                         </div>
                         
-                        <!-- 3D Glass Card 2 -->
                         <div class="bg-white/60 dark:bg-slate-800/60 backdrop-blur-md p-6 rounded-2xl border border-white/80 dark:border-slate-700 shadow-lg transform transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl hover:border-purple-300 dark:hover:border-purple-500/50 group" data-tilt data-tilt-max="10" data-tilt-glare data-tilt-max-glare="0.2">
                             <div class="w-12 h-12 bg-gradient-to-br from-purple-100 to-pink-100 dark:from-purple-900/60 dark:to-pink-900/60 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 group-hover:-rotate-6 transition-transform duration-300 shadow-sm">
                                 <svg class="w-6 h-6 text-purple-600 dark:text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
@@ -411,7 +411,7 @@
                             <h4 class="text-lg font-bold text-gray-900 dark:text-white mb-2">Statewide Coverage</h4>
                             <p class="text-sm text-gray-600 dark:text-slate-400">Best services in Chennai and all over Tamil Nadu.</p>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
                 
                 <!-- Right: 3D Interactive Image Stack -->
