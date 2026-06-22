@@ -93,6 +93,71 @@ $industries = [
     .premium-home .premium-icon {
         box-shadow: inset 0 1px rgba(255, 255, 255, .7), 0 12px 20px -14px rgba(37, 99, 235, .75);
     }
+    .premium-home .trusted-brands {
+        overflow: hidden;
+        background: linear-gradient(180deg, #fff 0%, #f8fbff 100%);
+    }
+    .premium-home .brand-carousel {
+        overflow: hidden;
+        padding-block: .35rem;
+        mask-image: linear-gradient(to right, transparent, #000 7%, #000 93%, transparent);
+        -webkit-mask-image: linear-gradient(to right, transparent, #000 7%, #000 93%, transparent);
+    }
+    .premium-home .brand-track {
+        display: flex;
+        width: max-content;
+        gap: 1rem;
+        animation: brand-scroll 38s linear infinite;
+        will-change: transform;
+    }
+    .premium-home .brand-carousel:hover .brand-track,
+    .premium-home .brand-carousel:focus-within .brand-track {
+        animation-play-state: paused;
+    }
+    .premium-home .brand-card {
+        position: relative;
+        display: flex;
+        width: 10.5rem;
+        height: 6.5rem;
+        flex: 0 0 10.5rem;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        border: 1px solid #e2e8f0;
+        border-radius: 1rem;
+        background: rgba(255, 255, 255, .94);
+        padding: .8rem;
+        box-shadow: 0 14px 34px -26px rgba(15, 23, 42, .7);
+        transition: transform .3s ease, border-color .3s ease, box-shadow .3s ease;
+    }
+    .premium-home .brand-card::after { display: none; }
+    .premium-home .brand-card:hover {
+        transform: translateY(-4px);
+        border-color: rgba(59, 130, 246, .45) !important;
+        background: #fff;
+        box-shadow: 0 20px 38px -24px rgba(37, 99, 235, .55);
+    }
+    .premium-home .brand-card img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    .dark .premium-home .trusted-brands {
+        background: linear-gradient(180deg, #0a0f1c 0%, #071120 100%);
+    }
+    .dark .premium-home .brand-card {
+        border-color: #1e293b;
+        background: rgba(15, 23, 42, .92);
+        box-shadow: 0 16px 35px -25px rgba(0, 0, 0, .9);
+    }
+    .dark .premium-home .brand-card:hover {
+        background: #0f172a;
+    }
+    @keyframes brand-scroll {
+        from { transform: translateX(0); }
+        to { transform: translateX(calc(-50% - .5rem)); }
+    }
     .premium-home .premium-form input,
     .premium-home .premium-form textarea,
     .premium-home .premium-form select {
@@ -136,6 +201,14 @@ $industries = [
     }
     @media (prefers-reduced-motion: reduce) {
         .premium-home .reviews-track { animation-play-state: paused; }
+        .premium-home .brand-carousel {
+            overflow-x: auto;
+            mask-image: none;
+            -webkit-mask-image: none;
+        }
+        .premium-home .brand-track {
+            animation: none;
+        }
     }
 </style>
 
@@ -200,13 +273,48 @@ $industries = [
         </div>
     </section>
 
-    <section class="bg-white py-7 dark:bg-[#0a0f1c]">
+    <!-- <section class="bg-white py-7 dark:bg-[#0a0f1c]">
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <p class="mb-6 text-center text-xs font-bold uppercase tracking-[0.2em] text-slate-500">Trusted by 1000+ businesses</p>
             <div class="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-6">
                 <?php foreach ([['heart', 'Healthcare'], ['building', 'Banking'], ['book', 'Education'], ['store', 'E-Commerce'], ['hotel', 'Hotels'], ['home', 'Real Estate']] as [$icon, $label]): ?><div class="premium-stat flex items-center justify-center gap-2 rounded-xl border border-gray-200 bg-gray-50 p-3 text-sm font-bold text-slate-600 dark:border-slate-800 dark:bg-slate-900 dark:text-slate-300"><?= $homeIcon($icon, 'h-5 w-5 text-blue-600') ?> <?= $label ?></div><?php endforeach; ?>
             </div>
         </div>
+    </section> -->
+
+    <section class="trusted-brands px-4 py-8 sm:px-6 lg:px-8" aria-labelledby="trusted-brands-title">
+      <div class="mx-auto max-w-7xl">
+        <p id="trusted-brands-title" class="text-center text-xs font-semibold uppercase tracking-[0.32em] text-slate-500">Trusted by fast-growing brands and leading businesses</p>
+        <div class="brand-carousel mt-6" role="region" aria-label="Customer brands">
+          <div class="brand-track py-2">
+            <div class="brand-card"><img src="assets/img/brands/alaya.jpg" alt="Alaya"></div>
+            <div class="brand-card"><img src="assets/img/brands/aswins.jpg" alt="Aswins"></div>
+            <div class="brand-card"><img src="assets/img/brands/gems_gold.jpg" alt="Gems Gold"></div>
+            <div class="brand-card"><img src="assets/img/brands/indian_institute_of_management.jpg" alt="Indian Institute of Management"></div>
+            <div class="brand-card"><img src="assets/img/brands/indian_railways.jpg" alt="Indian Railways"></div>
+            <div class="brand-card"><img src="assets/img/brands/kovai.jpg" alt="Kovai"></div>
+            <div class="brand-card"><img src="assets/img/brands/ksr_educational_institutions.jpg" alt="KSR Educational Institutions"></div>
+            <div class="brand-card"><img src="assets/img/brands/lucas_tvs.jpg" alt="Lucas TVS"></div>
+            <div class="brand-card"><img src="assets/img/brands/novotel.jpg" alt="Novotel"></div>
+            <div class="brand-card"><img src="assets/img/brands/rotary_international.jpg" alt="Rotary International"></div>
+            <div class="brand-card"><img src="assets/img/brands/srivenkateshwaraa.jpg" alt="Srivenkateshwaraa"></div>
+            <div class="brand-card"><img src="assets/img/brands/texvalley.jpg" alt="Texvalley"></div>
+
+            <div class="brand-card" aria-hidden="true"><img src="assets/img/brands/alaya.jpg" alt=""></div>
+            <div class="brand-card" aria-hidden="true"><img src="assets/img/brands/aswins.jpg" alt=""></div>
+            <div class="brand-card" aria-hidden="true"><img src="assets/img/brands/gems_gold.jpg" alt=""></div>
+            <div class="brand-card" aria-hidden="true"><img src="assets/img/brands/indian_institute_of_management.jpg" alt=""></div>
+            <div class="brand-card" aria-hidden="true"><img src="assets/img/brands/indian_railways.jpg" alt=""></div>
+            <div class="brand-card" aria-hidden="true"><img src="assets/img/brands/kovai.jpg" alt=""></div>
+            <div class="brand-card" aria-hidden="true"><img src="assets/img/brands/ksr_educational_institutions.jpg" alt=""></div>
+            <div class="brand-card" aria-hidden="true"><img src="assets/img/brands/lucas_tvs.jpg" alt=""></div>
+            <div class="brand-card" aria-hidden="true"><img src="assets/img/brands/novotel.jpg" alt=""></div>
+            <div class="brand-card" aria-hidden="true"><img src="assets/img/brands/rotary_international.jpg" alt=""></div>
+            <div class="brand-card" aria-hidden="true"><img src="assets/img/brands/srivenkateshwaraa.jpg" alt=""></div>
+            <div class="brand-card" aria-hidden="true"><img src="assets/img/brands/texvalley.jpg" alt=""></div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section class="bg-slate-50 py-10 dark:bg-[#060c18]">
@@ -250,13 +358,62 @@ $industries = [
     </section>
 
     <section id="pricing" class="bg-white py-14 lg:py-16 dark:bg-[#0a0f1c]">
-        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8"><div class="text-center"><span class="text-sm font-bold uppercase tracking-wider text-blue-600 dark:text-cyan-400">Pricing</span><h2 class="mt-3 font-heading text-4xl font-black text-slate-950 dark:text-white">Transparent, Affordable<br>SMS Pricing Plans</h2><p class="mt-4 text-slate-600 dark:text-slate-300">Pay only for what you use. No setup fees. No hidden charges. Cancel anytime.</p></div><div class="mt-12 grid gap-6 lg:grid-cols-3"><?php
-        $plans = [
-            ['Starter', 'Perfect for small businesses & startups', '&#8377;0.18', 'per SMS &middot; Min. 10,000 credits', ['Promotional SMS', 'DLT Registration Support', 'Basic Dashboard', 'Email Support', 'Real-Time Reports'], 'index.php#book-free-demo', 'Get Started Free'],
-            ['Growth', 'Best for growing SMEs', '&#8377;0.13', 'per SMS &middot; Min. 50,000 credits', ['Promotional + Transactional', 'OTP SMS + SMS API', 'DLT Full Setup - Free', 'Advanced Dashboard', 'WhatsApp Support', 'Dedicated Account Manager'], 'index.php#book-free-demo', 'Start Free Trial'],
-            ['Enterprise', 'For high-volume businesses', '&#8377;0.10', 'per SMS &middot; Custom volume', ['All Growth features', 'Priority Routing', 'Custom Sender ID', 'Reseller Panel Available', '24/7 Phone Support', 'SLA Agreement'], 'https://www.mydreamstechnology.in/contact.php', 'Contact Sales'],
-        ];
-        foreach ($plans as $index => [$title, $text, $price, $unit, $features, $url, $button]): ?><div class="premium-card rounded-3xl border <?= $index === 1 ? 'border-blue-600 bg-gradient-to-br from-blue-600 to-indigo-700 text-white shadow-xl shadow-blue-600/20 lg:-translate-y-3' : 'border-gray-200 bg-gray-50 text-slate-950 dark:border-slate-800 dark:bg-slate-900 dark:text-white' ?> p-8"><?php if ($index === 1): ?><span class="rounded-full bg-white/15 px-3 py-1 text-xs font-black uppercase tracking-wider text-cyan-100">Most Popular</span><?php endif; ?><h3 class="mt-4 text-2xl font-black"><?= $title ?></h3><p class="mt-2 <?= $index === 1 ? 'text-blue-100' : 'text-slate-500 dark:text-slate-400' ?>"><?= $text ?></p><p class="mt-8 text-4xl font-black"><?= $price ?></p><p class="mt-2 text-sm <?= $index === 1 ? 'text-blue-100' : 'text-slate-500 dark:text-slate-400' ?>"><?= $unit ?></p><ul class="mt-6 space-y-3 text-sm"><?php foreach ($features as $feature): ?><li class="flex gap-2"><?= $homeIcon('check', 'h-5 w-5 ' . ($index === 1 ? 'text-cyan-200' : 'text-green-500')) ?> <?= $feature ?></li><?php endforeach; ?></ul><a href="<?= $url ?>" class="mt-8 inline-flex rounded-xl <?= $index === 1 ? 'bg-white text-blue-700 shadow-lg' : 'bg-blue-600 text-white shadow-lg shadow-blue-600/20' ?> px-5 py-3 font-bold transition hover:-translate-y-1"><?= $button ?></a></div><?php endforeach; ?></div></div>
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div class="mx-auto max-w-3xl text-center">
+                <span class="text-sm font-bold uppercase tracking-wider text-blue-600 dark:text-cyan-400">Our Best Plans</span>
+                <h2 class="mt-3 font-heading text-4xl font-black text-slate-950 dark:text-white">Our Best SMS Plans<br>For Your Business</h2>
+                <p class="mt-4 text-slate-600 dark:text-slate-300">Premium Bulk SMS service at economical rates. Choose the package that fits your budget and messaging volume.</p>
+            </div>
+
+            <div class="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+                <?php
+                $plans = [
+                    ['Startup', '&#8377;2,950', '10,000 SMS'],
+                    ['Basic', '&#8377;5,900', '25,000 SMS'],
+                    ['Advance', '&#8377;8,260', '50,000 SMS'],
+                    ['Money Saver', '&#8377;15,340', '1,00,000 SMS'],
+                ];
+                $planFeatures = ['Instant Delivery', 'Web Application', '99.9% Uptime'];
+                foreach ($plans as $index => [$title, $price, $credits]):
+                    $isFeatured = $index === 2;
+                ?>
+                    <article class="premium-card flex flex-col rounded-3xl border p-7 <?= $isFeatured ? 'border-blue-600 bg-gradient-to-br from-blue-600 to-indigo-700 text-white shadow-xl shadow-blue-600/20 lg:-translate-y-3' : 'border-gray-200 bg-gray-50 text-slate-950 dark:border-slate-800 dark:bg-slate-900 dark:text-white' ?>">
+                        <?php if ($isFeatured): ?>
+                            <span class="self-start rounded-full bg-white/15 px-3 py-1 text-xs font-black uppercase tracking-wider text-cyan-100">Best Choice</span>
+                        <?php endif; ?>
+                        <h3 class="<?= $isFeatured ? 'mt-4' : '' ?> text-2xl font-black"><?= $title ?></h3>
+                        <p class="mt-2 text-xs font-bold uppercase tracking-widest <?= $isFeatured ? 'text-blue-100' : 'text-blue-600 dark:text-cyan-400' ?>">Lifetime Validity</p>
+                        <p class="mt-7 text-4xl font-black"><?= $price ?></p>
+                        <p class="mt-2 text-sm font-bold uppercase tracking-wider <?= $isFeatured ? 'text-blue-100' : 'text-slate-500 dark:text-slate-400' ?>"><?= $credits ?></p>
+                        <ul class="mt-7 flex-grow space-y-3 text-sm font-semibold">
+                            <?php foreach ($planFeatures as $feature): ?>
+                                <li class="flex items-center gap-2">
+                                    <?= $homeIcon('check', 'h-5 w-5 flex-none ' . ($isFeatured ? 'text-cyan-200' : 'text-green-500')) ?>
+                                    <?= $feature ?>
+                                </li>
+                            <?php endforeach; ?>
+                        </ul>
+                        <a href="index.php#book-free-demo" class="mt-8 inline-flex justify-center rounded-xl px-5 py-3 font-bold shadow-lg transition hover:-translate-y-1 <?= $isFeatured ? 'bg-white text-blue-700' : 'bg-blue-600 text-white shadow-blue-600/20 hover:bg-blue-700' ?>">Claim My Offer</a>
+                    </article>
+                <?php endforeach; ?>
+            </div>
+
+            <div class="mt-10 grid gap-4 md:grid-cols-3">
+                <?php foreach ([
+                    ['gift', 'Free Account Setup', 'Set up your account instantly at zero cost. You pay only for SMS credits.'],
+                    ['shield', 'Free DLT Support', 'Our team assists with the complete DLT registration and approval process.'],
+                    ['chart', '0% Cutting', 'Get transparent credit usage with dependable delivery and no hidden cutting.'],
+                ] as [$icon, $title, $text]): ?>
+                    <div class="premium-card flex gap-4 rounded-2xl border border-blue-100 bg-blue-50/60 p-5 dark:border-slate-800 dark:bg-slate-900">
+                        <span class="premium-icon inline-flex h-12 w-12 flex-none items-center justify-center rounded-xl bg-white text-blue-600 dark:bg-slate-800 dark:text-cyan-400"><?= $homeIcon($icon, 'h-6 w-6') ?></span>
+                        <div>
+                            <h3 class="font-bold text-slate-950 dark:text-white"><?= $title ?></h3>
+                            <p class="mt-1 text-sm leading-6 text-slate-500 dark:text-slate-400"><?= $text ?></p>
+                        </div>
+                    </div>
+                <?php endforeach; ?>
+            </div>
+        </div>
     </section>
 
     <section id="book-free-demo" class="relative scroll-mt-32 overflow-hidden bg-gradient-to-br from-blue-700 to-indigo-900 py-14 lg:py-16 text-white">

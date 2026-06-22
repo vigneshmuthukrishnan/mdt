@@ -146,8 +146,12 @@
             <div class="flex items-center gap-6">
                 <div class="hidden lg:flex items-center">
                     <!-- <a href="index.php#book-free-demo" class="text-sm font-bold text-slate-600 dark:text-slate-300 hover:text-indigo-600 transition-colors mr-6">Sign In</a> -->
-                    <a href="https://calendly.com/mydreamstechnology/bookademo" class="bg-indigo-600 hover:bg-indigo-700 text-white px-8 py-3 rounded-full font-black text-xs uppercase tracking-widest transition-all shadow-[0_10px_20px_-5px_rgba(79,70,229,0.3)] hover:shadow-[0_15px_25px_-5px_rgba(79,70,229,0.4)] hover:-translate-y-0.5 active:scale-95">
-                        7824998877 / Get Started
+                    <a href="https://calendly.com/mydreamstechnology/bookademo" class="bg-indigo-600 hover:bg-indigo-700 text-white px-7 py-3 rounded-full font-black text-xs uppercase tracking-widest transition-all shadow-[0_10px_20px_-5px_rgba(79,70,229,0.3)] hover:shadow-[0_15px_25px_-5px_rgba(79,70,229,0.4)] hover:-translate-y-0.5 active:scale-95">
+                        7824998877
+                    </a>
+                    &nbsp;
+                    <a href="index.php#book-free-demo" class="bg-indigo-600 hover:bg-indigo-700 text-white px-7 py-3 rounded-full font-black text-xs uppercase tracking-widest transition-all shadow-[0_10px_20px_-5px_rgba(79,70,229,0.3)] hover:shadow-[0_15px_25px_-5px_rgba(79,70,229,0.4)] hover:-translate-y-0.5 active:scale-95">
+                        Get Started
                     </a>
                 </div>
 
@@ -241,12 +245,47 @@
                 </nav>
             </div>
             <div class="p-6 bg-slate-50 dark:bg-white/5">
-                <a href="https://calendly.com/mydreamstechnology/bookademo" class="block w-full text-center bg-indigo-600 text-white py-4 rounded-2xl font-black transition-all shadow-lg mb-4">7824998877 / Get Started</a>
+                <a href="https://calendly.com/mydreamstechnology/bookademo" class="block w-full text-center bg-indigo-600 text-white py-4 rounded-2xl font-black transition-all shadow-lg mb-4">7824998877 </a>
+                <a href="index.php#book-free-demo" class="block w-full text-center bg-indigo-600 text-white py-4 rounded-2xl font-black transition-all shadow-lg mb-4">Get Started</a>
                 <p class="text-center text-xs text-slate-500">Trusted by 1000+ Businesses</p>
             </div>
         </div>
     </div>
 </header>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FT5DXRPHMJ"></script> 
+<script> 
+    window.dataLayer = window.dataLayer || []; 
+    function gtag(){
+        dataLayer.push(arguments);
+    } 
+    gtag('js', new Date()); 
+    gtag('config', 'G-FT5DXRPHMJ'); 
+</script>
+
+<script>
+    !function(f,b,e,v,n,t,s){
+        if(f.fbq)return;
+        n=f.fbq=function(){
+            n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)
+        };
+        if(!f._fbq)
+            f._fbq=n;
+            n.push=n;
+            n.loaded=!0;
+            n.version='2.0';
+            n.queue=[];
+            t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t,s)
+        }(window, document,'script', 'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '409970812203963');
+    fbq('track', 'PageView');
+</script>
+<noscript>
+    <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=409970812203963&ev=PageView&noscript=1"/>
+</noscript>
 
 <script>
     // Mobile menu toggle functionality
