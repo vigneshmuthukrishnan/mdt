@@ -449,6 +449,98 @@
         </div>
     </section> -->
 
+    <!-- Our Products Section -->
+    <section class="relative overflow-hidden bg-gradient-to-br from-white via-green-50 to-emerald-50 py-12 dark:from-[#060c18] dark:via-[#071811] dark:to-[#06170f]" id="products">
+        <div class="absolute -left-24 top-12 h-80 w-80 rounded-full bg-green-300/20 blur-[120px] dark:bg-green-600/10"></div>
+        <div class="absolute -right-24 bottom-0 h-80 w-80 rounded-full bg-emerald-300/25 blur-[120px] dark:bg-emerald-500/10"></div>
+
+        <div class="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div class="mx-auto max-w-4xl text-center">
+                <div class="inline-flex items-center space-x-2 bg-green-50 dark:bg-green-900/30 px-4 py-2 rounded-full mb-6 border border-green-100 dark:border-green-800/50 shadow-sm transform transition-transform hover:-translate-y-1">
+                    <span class="w-2 h-2 rounded-full bg-green-600 dark:bg-green-400 animate-ping"></span>
+                    <span class="text-sm font-bold text-green-700 dark:text-green-300 tracking-wide uppercase">Our Products</span>
+                </div>
+                <h2 class="mt-5 font-heading text-3xl font-black leading-tight text-gray-900 sm:text-4xl lg:text-5xl dark:text-white">
+                    Choose the right WhatsApp solution for your <span class="text-gradient">business growth</span>
+                </h2>
+                <p class="mt-5 text-base leading-8 text-gray-600 sm:text-lg dark:text-slate-300">
+                    Explore API integration, broadcast campaigns, and chatbot automation built to help your team manage communication, promotions, and customer conversations from one trusted ecosystem.
+                </p>
+            </div>
+
+            <div class="mt-10 grid grid-cols-1 gap-6 lg:grid-cols-3">
+                <article class="group overflow-hidden rounded-3xl border border-green-100 bg-white/90 shadow-[0_18px_45px_rgba(16,185,129,0.12)] transition-all duration-500 hover:-translate-y-2 hover:border-green-300 hover:shadow-[0_28px_60px_rgba(16,185,129,0.2)] dark:border-green-900/60 dark:bg-slate-900/85 dark:hover:border-green-600/70">
+                    <a href="whatsapp-api.php" class="block">
+                        <div class="relative h-56 overflow-hidden bg-gradient-to-br from-green-100 to-emerald-50 p-5 dark:from-green-950/50 dark:to-slate-900">
+                            <img src="assets/img/api.png" alt="WhatsApp API" class="h-full w-full rounded-2xl object-contain transition-transform duration-700 group-hover:scale-105">
+                            <span class="absolute left-6 top-6 rounded-full bg-white/90 px-4 py-2 text-xs font-black uppercase tracking-widest text-green-700 shadow-sm dark:bg-slate-900/90 dark:text-green-300">API</span>
+                        </div>
+                    </a>
+                    <div class="p-6">
+                        <h3 class="font-heading text-2xl font-black text-gray-900 dark:text-white">WhatsApp API</h3>
+                        <p class="mt-3 leading-7 text-gray-600 dark:text-slate-300">
+                            Connect WhatsApp with your website, CRM, and business tools to automate updates, manage conversations, and keep customer communication organized.
+                        </p>
+                        <div class="mt-5 grid gap-3 text-sm font-bold text-gray-700 dark:text-slate-300">
+                            <div class="flex items-center gap-2"><span class="h-2 w-2 rounded-full bg-green-500"></span>Easy Integration &amp; Setup</div>
+                            <div class="flex items-center gap-2"><span class="h-2 w-2 rounded-full bg-green-500"></span>Automated Business Notifications</div>
+                            <div class="flex items-center gap-2"><span class="h-2 w-2 rounded-full bg-green-500"></span>CRM &amp; Business Integrations</div>
+                        </div>
+                        <a href="whatsapp-api.php" class="mt-6 inline-flex items-center justify-center rounded-xl bg-whatsapp px-5 py-3 text-sm font-black text-white shadow-lg shadow-green-500/20 transition hover:-translate-y-1 hover:bg-whatsapp-dark">
+                            Explore API <span class="ml-2" aria-hidden="true">&rarr;</span>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="group overflow-hidden rounded-3xl border border-green-100 bg-white/90 shadow-[0_18px_45px_rgba(16,185,129,0.12)] transition-all duration-500 hover:-translate-y-2 hover:border-green-300 hover:shadow-[0_28px_60px_rgba(16,185,129,0.2)] dark:border-green-900/60 dark:bg-slate-900/85 dark:hover:border-green-600/70">
+                    <a href="whatsapp-broadcast.php" class="block">
+                        <div class="relative h-56 overflow-hidden bg-gradient-to-br from-emerald-100 to-green-50 p-5 dark:from-emerald-950/50 dark:to-slate-900">
+                            <img src="assets/img/wt1.png" alt="WhatsApp Broadcast" class="h-full w-full rounded-2xl object-contain transition-transform duration-700 group-hover:scale-105">
+                            <span class="absolute left-6 top-6 rounded-full bg-white/90 px-4 py-2 text-xs font-black uppercase tracking-widest text-green-700 shadow-sm dark:bg-slate-900/90 dark:text-green-300">Broadcast</span>
+                        </div>
+                    </a>
+                    <div class="p-6">
+                        <h3 class="font-heading text-2xl font-black text-gray-900 dark:text-white">WhatsApp Broadcast</h3>
+                        <p class="mt-3 leading-7 text-gray-600 dark:text-slate-300">
+                            Reach customers faster with targeted offers, announcements, product updates, and campaigns delivered directly inside private WhatsApp chats.
+                        </p>
+                        <div class="mt-5 grid gap-3 text-sm font-bold text-gray-700 dark:text-slate-300">
+                            <div class="flex items-center gap-2"><span class="h-2 w-2 rounded-full bg-green-500"></span>Bulk WhatsApp Messaging</div>
+                            <div class="flex items-center gap-2"><span class="h-2 w-2 rounded-full bg-green-500"></span>Higher Open Rates</div>
+                            <div class="flex items-center gap-2"><span class="h-2 w-2 rounded-full bg-green-500"></span>Two-Way Conversations</div>
+                        </div>
+                        <a href="whatsapp-broadcast.php" class="mt-6 inline-flex items-center justify-center rounded-xl bg-whatsapp px-5 py-3 text-sm font-black text-white shadow-lg shadow-green-500/20 transition hover:-translate-y-1 hover:bg-whatsapp-dark">
+                            Explore Broadcast <span class="ml-2" aria-hidden="true">&rarr;</span>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="group overflow-hidden rounded-3xl border border-green-100 bg-white/90 shadow-[0_18px_45px_rgba(16,185,129,0.12)] transition-all duration-500 hover:-translate-y-2 hover:border-green-300 hover:shadow-[0_28px_60px_rgba(16,185,129,0.2)] dark:border-green-900/60 dark:bg-slate-900/85 dark:hover:border-green-600/70">
+                    <a href="whatsapp-chatbot.php" class="block">
+                        <div class="relative h-56 overflow-hidden bg-gradient-to-br from-green-100 to-teal-50 p-5 dark:from-green-950/50 dark:to-slate-900">
+                            <img src="assets/img/chat-bot-concept-illustration_114360-5223.avif" alt="WhatsApp Chatbot" class="h-full w-full rounded-2xl object-contain transition-transform duration-700 group-hover:scale-105">
+                            <span class="absolute left-6 top-6 rounded-full bg-white/90 px-4 py-2 text-xs font-black uppercase tracking-widest text-green-700 shadow-sm dark:bg-slate-900/90 dark:text-green-300">Chatbot</span>
+                        </div>
+                    </a>
+                    <div class="p-6">
+                        <h3 class="font-heading text-2xl font-black text-gray-900 dark:text-white">WhatsApp Chatbot</h3>
+                        <p class="mt-3 leading-7 text-gray-600 dark:text-slate-300">
+                            Automate replies, capture leads, support customers 24/7, and help your sales and support teams handle more conversations with less manual work.
+                        </p>
+                        <div class="mt-5 grid gap-3 text-sm font-bold text-gray-700 dark:text-slate-300">
+                            <div class="flex items-center gap-2"><span class="h-2 w-2 rounded-full bg-green-500"></span>AI-Powered WhatsApp Chatbot</div>
+                            <div class="flex items-center gap-2"><span class="h-2 w-2 rounded-full bg-green-500"></span>Instant Lead Capture</div>
+                            <div class="flex items-center gap-2"><span class="h-2 w-2 rounded-full bg-green-500"></span>24/7 AI Chatbot Availability</div>
+                        </div>
+                        <a href="whatsapp-chatbot.php" class="mt-6 inline-flex items-center justify-center rounded-xl bg-whatsapp px-5 py-3 text-sm font-black text-white shadow-lg shadow-green-500/20 transition hover:-translate-y-1 hover:bg-whatsapp-dark">
+                            Explore Chatbot <span class="ml-2" aria-hidden="true">&rarr;</span>
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
     <!-- Our Solution Section -->
     <section class="relative overflow-hidden bg-white py-12 dark:bg-[#060c18]" id="features">
         <div class="absolute -left-24 bottom-12 h-80 w-80 rounded-full bg-green-300/20 blur-[120px] dark:bg-green-600/10"></div>

@@ -98,7 +98,7 @@
                                         <p class="text-[11px] text-slate-500 leading-relaxed">Official Business API for automated engagement.</p>
                                     </div>
                                 </a>
-                                <a href="contact.php" class="flex items-start group/item">
+                                <a href="rcs-messaging.php" class="flex items-start group/item">
                                     <div class="w-10 h-10 rounded-xl bg-blue-50 dark:bg-blue-900/20 flex items-center justify-center mr-4 shrink-0 group-hover/item:bg-blue-600 group-hover/item:text-white transition-all duration-300">
                                         <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z"/></svg>
                                     </div>
@@ -205,7 +205,7 @@
                                         </span>
                                         <span><span class="block text-sm font-bold text-slate-900 dark:text-white">WhatsApp API</span><span class="mt-1 block text-xs leading-5 text-slate-500">Official Business API.</span></span>
                                     </a>
-                                    <a href="contact.php" class="flex items-start rounded-2xl p-3 transition-colors hover:bg-blue-50 dark:hover:bg-blue-900/20">
+                                    <a href="rcs-messaging.php" class="flex items-start rounded-2xl p-3 transition-colors hover:bg-blue-50 dark:hover:bg-blue-900/20">
                                         <span class="mr-3 flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-blue-50 text-blue-600 dark:bg-blue-900/20 dark:text-blue-300">
                                             <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z"/></svg>
                                         </span>
