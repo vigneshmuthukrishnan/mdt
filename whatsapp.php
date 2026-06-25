@@ -998,7 +998,7 @@
     </section> -->
 
     <!-- Why We Are Best Section (Text Left, Staggered Grid Right) -->
-    <section class="py-24 bg-gradient-to-br from-green-50/50 to-emerald-50/50 dark:from-[#060c18] dark:to-[#0a1128] transition-colors duration-300 relative overflow-hidden">
+    <!-- <section class="py-24 bg-gradient-to-br from-green-50/50 to-emerald-50/50 dark:from-[#060c18] dark:to-[#0a1128] transition-colors duration-300 relative overflow-hidden">
         <div class="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none -z-10">
             <div class="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-green-400/20 dark:bg-green-600/10 rounded-full blur-[120px] animate-[pulse_8s_ease-in-out_infinite]"></div>
             <div class="absolute bottom-[-10%] right-[-5%] w-[50%] h-[50%] bg-emerald-400/20 dark:bg-emerald-600/10 rounded-full blur-[120px] animate-[pulse_10s_ease-in-out_infinite_alternate]"></div>
@@ -1059,7 +1059,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- Customer Stories Section -->
     <section class="relative overflow-hidden bg-[#06170f] py-12" id="testimonials">

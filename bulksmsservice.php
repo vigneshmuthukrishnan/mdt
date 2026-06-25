@@ -293,6 +293,186 @@
         </div>
     </section>
 
+    <!-- Our Products Section -->
+    <section class="relative overflow-hidden bg-white py-14 sm:py-16 dark:bg-[#060c18]" id="products">
+        <div class="absolute -left-24 top-20 h-80 w-80 rounded-full bg-blue-300/20 blur-[110px] dark:bg-blue-600/10"></div>
+        <div class="absolute -right-24 bottom-0 h-96 w-96 rounded-full bg-cyan-300/20 blur-[120px] dark:bg-cyan-500/10"></div>
+
+        <div class="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div class="mx-auto max-w-4xl text-center">
+                <div class="inline-flex items-center space-x-2 bg-blue-50 dark:bg-blue-900/30 px-4 py-2 rounded-full mb-6 border border-blue-100 dark:border-blue-800/50 shadow-sm transform transition-transform hover:-translate-y-1 hover:shadow-md">
+                    <span class="w-2 h-2 rounded-full bg-blue-600 dark:bg-blue-400 animate-ping"></span>
+                    <span class="text-sm font-bold text-blue-700 dark:text-blue-300 tracking-wide uppercase">Our Products</span>
+                </div>
+                <h2 class="mt-5 font-heading text-3xl font-black leading-tight text-slate-950 sm:text-4xl lg:text-5xl dark:text-white">
+                    Choose the right SMS product for every <span class="text-blue-600 dark:text-blue-400">business communication need</span>
+                </h2>
+                <p class="mt-5 text-base leading-8 text-slate-600 sm:text-lg dark:text-slate-300">
+                    From OTP delivery and SMS API integration to transactional alerts, promotional campaigns, and reseller growth, explore the SMS solutions built for fast, reliable communication.
+                </p>
+            </div>
+
+            <div class="mx-auto mt-10 grid max-w-5xl grid-cols-1 gap-6 md:grid-cols-2">
+                <article class="group overflow-hidden rounded-3xl border border-blue-100 bg-white/90 shadow-[0_18px_45px_rgba(37,99,235,0.12)] transition-all duration-500 hover:-translate-y-2 hover:border-blue-300 hover:shadow-[0_28px_60px_rgba(37,99,235,0.2)] dark:border-blue-900/60 dark:bg-slate-900/85 dark:hover:border-blue-600/70">
+                    <a href="otpsms.php" class="block">
+                        <div class="relative h-52 overflow-hidden bg-gradient-to-br from-blue-100 to-cyan-50 p-5 dark:from-blue-950/50 dark:to-slate-900">
+                            <svg class="h-full w-full rounded-2xl transition-transform duration-700 group-hover:scale-105" viewBox="0 0 420 260" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="OTP SMS and SMS API">
+                                <defs>
+                                    <linearGradient id="otpSmsGradient" x1="70" y1="34" x2="345" y2="235" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#2563eb"/>
+                                        <stop offset="1" stop-color="#06b6d4"/>
+                                    </linearGradient>
+                                </defs>
+                                <rect width="420" height="260" rx="32" fill="url(#otpSmsGradient)" opacity="0.12"/>
+                                <rect x="78" y="34" width="158" height="202" rx="28" fill="white" stroke="#bfdbfe" stroke-width="4"/>
+                                <rect x="96" y="64" width="122" height="20" rx="10" fill="#dbeafe"/>
+                                <rect x="106" y="112" width="102" height="52" rx="16" fill="#2563eb"/>
+                                <text x="157" y="145" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="800" fill="white">OTP</text>
+                                <circle cx="157" cy="198" r="11" fill="#bfdbfe"/>
+                                <path d="M270 94h62a22 22 0 0 1 22 22v34a22 22 0 0 1-22 22h-30l-34 30v-30a22 22 0 0 1-20-22v-34a22 22 0 0 1 22-22Z" fill="#eff6ff" stroke="#2563eb" stroke-width="4"/>
+                                <path d="M286 128h48M286 148h32" stroke="#2563eb" stroke-width="7" stroke-linecap="round"/>
+                                <path d="M258 56l23 23M340 58l-23 23" stroke="#06b6d4" stroke-width="8" stroke-linecap="round"/>
+                            </svg>
+                            <span class="absolute left-6 top-6 rounded-full bg-white/90 px-4 py-2 text-xs font-black uppercase tracking-widest text-blue-700 shadow-sm dark:bg-slate-900/90 dark:text-blue-300">OTP / API</span>
+                        </div>
+                    </a>
+                    <div class="p-6">
+                        <h3 class="font-heading text-2xl font-black text-slate-950 dark:text-white">OTP SMS / SMS API</h3>
+                        <p class="mt-3 leading-7 text-slate-600 dark:text-slate-300">
+                            Send secure OTPs, verification codes, and automated SMS through an easy API built for fast authentication and customer updates.
+                        </p>
+                        <div class="mt-5 grid gap-3 text-sm font-bold text-slate-700 dark:text-slate-300">
+                            <div class="flex items-center gap-2"><span class="h-2 w-2 rounded-full bg-blue-600"></span>Instant OTP Delivery</div>
+                            <div class="flex items-center gap-2"><span class="h-2 w-2 rounded-full bg-blue-600"></span>Developer-Friendly SMS API</div>
+                            <div class="flex items-center gap-2"><span class="h-2 w-2 rounded-full bg-blue-600"></span>Secure Verification Flow</div>
+                        </div>
+                        <a href="otpsms.php" class="mt-6 inline-flex items-center justify-center rounded-xl bg-blue-600 px-5 py-3 text-sm font-black text-white shadow-lg shadow-blue-500/20 transition hover:-translate-y-1 hover:bg-blue-700">
+                            Explore OTP SMS <span class="ml-2" aria-hidden="true">&rarr;</span>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="group overflow-hidden rounded-3xl border border-blue-100 bg-white/90 shadow-[0_18px_45px_rgba(37,99,235,0.12)] transition-all duration-500 hover:-translate-y-2 hover:border-blue-300 hover:shadow-[0_28px_60px_rgba(37,99,235,0.2)] dark:border-blue-900/60 dark:bg-slate-900/85 dark:hover:border-blue-600/70">
+                    <a href="transactionalsms.php" class="block">
+                        <div class="relative h-52 overflow-hidden bg-gradient-to-br from-indigo-100 to-blue-50 p-5 dark:from-indigo-950/50 dark:to-slate-900">
+                            <svg class="h-full w-full rounded-2xl transition-transform duration-700 group-hover:scale-105" viewBox="0 0 420 260" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Transactional SMS">
+                                <defs>
+                                    <linearGradient id="transactionalSmsGradient" x1="64" y1="40" x2="354" y2="226" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#4f46e5"/>
+                                        <stop offset="1" stop-color="#2563eb"/>
+                                    </linearGradient>
+                                </defs>
+                                <rect width="420" height="260" rx="32" fill="url(#transactionalSmsGradient)" opacity="0.12"/>
+                                <rect x="62" y="54" width="296" height="152" rx="28" fill="white" stroke="#c7d2fe" stroke-width="4"/>
+                                <rect x="86" y="82" width="116" height="16" rx="8" fill="#dbeafe"/>
+                                <rect x="86" y="116" width="196" height="12" rx="6" fill="#bfdbfe"/>
+                                <rect x="86" y="142" width="156" height="12" rx="6" fill="#bfdbfe"/>
+                                <circle cx="318" cy="94" r="22" fill="#2563eb"/>
+                                <path d="m306 94 8 8 17-20" stroke="white" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M116 206h188" stroke="#2563eb" stroke-width="8" stroke-linecap="round"/>
+                                <path d="M304 206l-24-24M304 206l-24 24" stroke="#2563eb" stroke-width="8" stroke-linecap="round"/>
+                            </svg>
+                            <span class="absolute left-6 top-6 rounded-full bg-white/90 px-4 py-2 text-xs font-black uppercase tracking-widest text-blue-700 shadow-sm dark:bg-slate-900/90 dark:text-blue-300">Transactional</span>
+                        </div>
+                    </a>
+                    <div class="p-6">
+                        <h3 class="font-heading text-2xl font-black text-slate-950 dark:text-white">Transactional SMS</h3>
+                        <p class="mt-3 leading-7 text-slate-600 dark:text-slate-300">
+                            Deliver important alerts, confirmations, account messages, and service updates reliably to customers across Tamil Nadu.
+                        </p>
+                        <div class="mt-5 grid gap-3 text-sm font-bold text-slate-700 dark:text-slate-300">
+                            <div class="flex items-center gap-2"><span class="h-2 w-2 rounded-full bg-blue-600"></span>High-Priority Message Route</div>
+                            <div class="flex items-center gap-2"><span class="h-2 w-2 rounded-full bg-blue-600"></span>DND &amp; Non-DND Reach</div>
+                            <div class="flex items-center gap-2"><span class="h-2 w-2 rounded-full bg-blue-600"></span>Real-Time Delivery Reports</div>
+                        </div>
+                        <a href="transactionalsms.php" class="mt-6 inline-flex items-center justify-center rounded-xl bg-blue-600 px-5 py-3 text-sm font-black text-white shadow-lg shadow-blue-500/20 transition hover:-translate-y-1 hover:bg-blue-700">
+                            Explore Transactional <span class="ml-2" aria-hidden="true">&rarr;</span>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="group overflow-hidden rounded-3xl border border-blue-100 bg-white/90 shadow-[0_18px_45px_rgba(37,99,235,0.12)] transition-all duration-500 hover:-translate-y-2 hover:border-blue-300 hover:shadow-[0_28px_60px_rgba(37,99,235,0.2)] dark:border-blue-900/60 dark:bg-slate-900/85 dark:hover:border-blue-600/70">
+                    <a href="promotionalsms.php" class="block">
+                        <div class="relative h-52 overflow-hidden bg-gradient-to-br from-cyan-100 to-blue-50 p-5 dark:from-cyan-950/50 dark:to-slate-900">
+                            <svg class="h-full w-full rounded-2xl transition-transform duration-700 group-hover:scale-105" viewBox="0 0 420 260" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Promotional SMS">
+                                <defs>
+                                    <linearGradient id="promotionalSmsGradient" x1="58" y1="40" x2="360" y2="230" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#06b6d4"/>
+                                        <stop offset="1" stop-color="#2563eb"/>
+                                    </linearGradient>
+                                </defs>
+                                <rect width="420" height="260" rx="32" fill="url(#promotionalSmsGradient)" opacity="0.12"/>
+                                <path d="M89 150h82l104 56V54L171 110H89a30 30 0 0 0-30 30v10a30 30 0 0 0 30 30Z" fill="white" stroke="#2563eb" stroke-width="5" stroke-linejoin="round"/>
+                                <path d="M170 110v70" stroke="#93c5fd" stroke-width="5" stroke-linecap="round"/>
+                                <path d="M292 102c22 9 36 25 36 45s-14 36-36 45M316 70c38 17 62 44 62 77s-24 60-62 77" stroke="#06b6d4" stroke-width="9" stroke-linecap="round"/>
+                                <rect x="82" y="129" width="70" height="32" rx="16" fill="#dbeafe"/>
+                                <text x="117" y="151" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="800" fill="#2563eb">SALE</text>
+                                <path d="M114 180l24 42h42l-34-48" fill="#2563eb" opacity="0.18"/>
+                            </svg>
+                            <span class="absolute left-6 top-6 rounded-full bg-white/90 px-4 py-2 text-xs font-black uppercase tracking-widest text-blue-700 shadow-sm dark:bg-slate-900/90 dark:text-blue-300">Promotional</span>
+                        </div>
+                    </a>
+                    <div class="p-6">
+                        <h3 class="font-heading text-2xl font-black text-slate-950 dark:text-white">Promotional SMS</h3>
+                        <p class="mt-3 leading-7 text-slate-600 dark:text-slate-300">
+                            Run offers, announcements, seasonal campaigns, and customer engagement messages at scale with affordable bulk SMS plans.
+                        </p>
+                        <div class="mt-5 grid gap-3 text-sm font-bold text-slate-700 dark:text-slate-300">
+                            <div class="flex items-center gap-2"><span class="h-2 w-2 rounded-full bg-blue-600"></span>Bulk Campaign Sending</div>
+                            <div class="flex items-center gap-2"><span class="h-2 w-2 rounded-full bg-blue-600"></span>Fast Customer Reach</div>
+                            <div class="flex items-center gap-2"><span class="h-2 w-2 rounded-full bg-blue-600"></span>Cost-Effective Promotions</div>
+                        </div>
+                        <a href="promotionalsms.php" class="mt-6 inline-flex items-center justify-center rounded-xl bg-blue-600 px-5 py-3 text-sm font-black text-white shadow-lg shadow-blue-500/20 transition hover:-translate-y-1 hover:bg-blue-700">
+                            Explore Promotional <span class="ml-2" aria-hidden="true">&rarr;</span>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="group overflow-hidden rounded-3xl border border-blue-100 bg-white/90 shadow-[0_18px_45px_rgba(37,99,235,0.12)] transition-all duration-500 hover:-translate-y-2 hover:border-blue-300 hover:shadow-[0_28px_60px_rgba(37,99,235,0.2)] dark:border-blue-900/60 dark:bg-slate-900/85 dark:hover:border-blue-600/70">
+                    <a href="resellerservice.php" class="block">
+                        <div class="relative h-52 overflow-hidden bg-gradient-to-br from-blue-100 to-indigo-50 p-5 dark:from-blue-950/50 dark:to-slate-900">
+                            <svg class="h-full w-full rounded-2xl transition-transform duration-700 group-hover:scale-105" viewBox="0 0 420 260" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Reseller Panel">
+                                <defs>
+                                    <linearGradient id="resellerPanelGradient" x1="78" y1="30" x2="344" y2="232" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#2563eb"/>
+                                        <stop offset="1" stop-color="#4f46e5"/>
+                                    </linearGradient>
+                                </defs>
+                                <rect width="420" height="260" rx="32" fill="url(#resellerPanelGradient)" opacity="0.12"/>
+                                <rect x="62" y="58" width="296" height="156" rx="24" fill="white" stroke="#bfdbfe" stroke-width="4"/>
+                                <rect x="62" y="58" width="296" height="42" rx="24" fill="#2563eb"/>
+                                <circle cx="91" cy="79" r="6" fill="#bfdbfe"/>
+                                <circle cx="111" cy="79" r="6" fill="#bfdbfe"/>
+                                <circle cx="131" cy="79" r="6" fill="#bfdbfe"/>
+                                <rect x="88" y="124" width="78" height="58" rx="14" fill="#dbeafe"/>
+                                <rect x="188" y="124" width="78" height="58" rx="14" fill="#dbeafe"/>
+                                <rect x="288" y="124" width="42" height="58" rx="14" fill="#dbeafe"/>
+                                <path d="M111 153h32M211 153h32M303 153h12" stroke="#2563eb" stroke-width="7" stroke-linecap="round"/>
+                                <path d="M128 196h164" stroke="#06b6d4" stroke-width="8" stroke-linecap="round"/>
+                                <path d="M210 196v-28" stroke="#06b6d4" stroke-width="8" stroke-linecap="round"/>
+                            </svg>
+                            <span class="absolute left-6 top-6 rounded-full bg-white/90 px-4 py-2 text-xs font-black uppercase tracking-widest text-blue-700 shadow-sm dark:bg-slate-900/90 dark:text-blue-300">Reseller</span>
+                        </div>
+                    </a>
+                    <div class="p-6">
+                        <h3 class="font-heading text-2xl font-black text-slate-950 dark:text-white">Reseller Panel</h3>
+                        <p class="mt-3 leading-7 text-slate-600 dark:text-slate-300">
+                            Start or scale your SMS business with a reseller-ready panel, client management tools, and reliable backend support.
+                        </p>
+                        <div class="mt-5 grid gap-3 text-sm font-bold text-slate-700 dark:text-slate-300">
+                            <div class="flex items-center gap-2"><span class="h-2 w-2 rounded-full bg-blue-600"></span>White-Label SMS Platform</div>
+                            <div class="flex items-center gap-2"><span class="h-2 w-2 rounded-full bg-blue-600"></span>Client Account Management</div>
+                            <div class="flex items-center gap-2"><span class="h-2 w-2 rounded-full bg-blue-600"></span>Business Growth Support</div>
+                        </div>
+                        <a href="resellerservice.php" class="mt-6 inline-flex items-center justify-center rounded-xl bg-blue-600 px-5 py-3 text-sm font-black text-white shadow-lg shadow-blue-500/20 transition hover:-translate-y-1 hover:bg-blue-700">
+                            Explore Reseller <span class="ml-2" aria-hidden="true">&rarr;</span>
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
     <!-- BulkSMS Features Section -->
     <section class="py-16 bg-white dark:bg-[#060c18] transition-colors duration-300 relative overflow-hidden">
         <!-- 3D Decorative Background Elements -->
